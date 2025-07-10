@@ -32,9 +32,9 @@ export default <T extends BotTypes>({ bot, env, getContext, musicToFile, enableO
 			return true;
 		}
 
-		const minato = event.params.includes('--minato') || event.params.includes('--munet');
+		const minato = event.params.includes('--minato') || event.params.includes('--munet') || event.params.includes('—munet') || event.params.includes('-munet');
 
-		const param = event.params.filter(it => it !== '--minato' && it !== '--munet').join('');
+		const param = event.params.filter(it => it !== '--minato' && it !== '--munet' && it !== '-munet' && it !== '—munet').join('');
 		let profile: UserProfile;
 
 		if (/^\d{20}$/.test(param) && enableOfficialServers) { // is AIME
@@ -48,11 +48,6 @@ export default <T extends BotTypes>({ bot, env, getContext, musicToFile, enableO
 					.dispatch();
 				return true;
 			}
-		} else if (!isNaN(Number(param))) { // is number
-			await event.reply()
-				.setText('现在请使用用户名绑定 AquaDX 的账号')
-				.dispatch();
-			// profile = await UserProfile.create({ type: 'AquaDX', userId: Number(param) }, env);
 		} else if (param.startsWith('SGWCMAI' + 'D') && param.length === 64 + 8 + 12 && enableOfficialServers) {
 			const client = SdgbProxied.create(env.CF_ACCESS_CLIENT_ID, env.CF_ACCESS_CLIENT_SECRET);
 			try {

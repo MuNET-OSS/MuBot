@@ -49,7 +49,7 @@ export class UserProfile {
 			case 'AquaDX-v2':
 				return 'AquaDX';
 			case 'Minato':
-				return 'Minato（测试）';
+				return 'MuNET';
 			case 'SDGB':
 				return '国服';
 			case 'SDGA':

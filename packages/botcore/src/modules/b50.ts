@@ -20,6 +20,12 @@ export default <T extends BotTypes>({ bot, env, getContext, musicToFile }: Build
 		return true;
 	});
 
+	bot.registerKeyword(/^几个云洛啊$/, async (event) => {
+		if (event.fromId != 762300446) return false;
+		await sendB50Image(getContext(event), event.fromId, event.isPrivate);
+		return true;
+	});
+
 	bot.registerCommand('start', async (event) => {
 		if (event.params[0] !== 'b50') return false;
 		await sendB50Image(getContext(event), event.fromId, event.isPrivate);
