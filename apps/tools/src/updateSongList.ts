@@ -41,4 +41,7 @@ for (const f of await fsP.readdir(baseDir)) {
 	}
 }
 
+delete data[''];
+delete data['11879'];
+
 await fsP.writeFile('./all-music.json', JSON.stringify(data, null, '\t'));

@@ -315,8 +315,8 @@ importers:
         specifier: workspace:^
         version: link:../utils
       '@gekichumai/dxdata':
-        specifier: https://gitpkg.now.sh/gekichumai/dxrating/packages/dxdata?ff3b85ba79dc487b48719b449a8edd00669af5bc
-        version: https://gitpkg.now.sh/gekichumai/dxrating/packages/dxdata?ff3b85ba79dc487b48719b449a8edd00669af5bc
+        specifier: https://gitpkg.now.sh/gekichumai/dxrating/packages/dxdata?66c39b5d9ea3a5d552f596d9fdf8dd51a7233b57
+        version: https://gitpkg.now.sh/gekichumai/dxrating/packages/dxdata?66c39b5d9ea3a5d552f596d9fdf8dd51a7233b57
 
   packages/utils:
     dependencies:
@@ -1218,8 +1218,8 @@ packages:
     resolution: {integrity: sha512-vBZP4NlzfOlerQTnba4aqZoMhE/a9HY7HRqoOPaETQcSQuWEIyZMHGfVu6w9wGtGK5fED5qRs2DteVCjOH60sA==}
     engines: {node: '>=14'}
 
-  '@gekichumai/dxdata@https://gitpkg.now.sh/gekichumai/dxrating/packages/dxdata?ff3b85ba79dc487b48719b449a8edd00669af5bc':
-    resolution: {tarball: https://gitpkg.now.sh/gekichumai/dxrating/packages/dxdata?ff3b85ba79dc487b48719b449a8edd00669af5bc}
+  '@gekichumai/dxdata@https://gitpkg.now.sh/gekichumai/dxrating/packages/dxdata?66c39b5d9ea3a5d552f596d9fdf8dd51a7233b57':
+    resolution: {tarball: https://gitpkg.now.sh/gekichumai/dxrating/packages/dxdata?66c39b5d9ea3a5d552f596d9fdf8dd51a7233b57}
     version: 0.0.0
 
   '@grammyjs/types@3.16.0':
@@ -4260,7 +4260,7 @@ snapshots:
 
   '@fastify/busboy@2.1.1': {}
 
-  '@gekichumai/dxdata@https://gitpkg.now.sh/gekichumai/dxrating/packages/dxdata?ff3b85ba79dc487b48719b449a8edd00669af5bc': {}
+  '@gekichumai/dxdata@https://gitpkg.now.sh/gekichumai/dxrating/packages/dxdata?66c39b5d9ea3a5d552f596d9fdf8dd51a7233b57': {}
 
   '@grammyjs/types@3.16.0': {}
 

@@ -14534,6 +14534,46 @@
 			}
 		]
 	},
+	"1736": {
+		"name": "プリズム△▽リズム",
+		"ver": "25513",
+		"composer": "Shoichiro Hirata feat.Sana",
+		"genre": "maimai",
+		"notes": [
+			{
+				"lv": 4
+			},
+			{
+				"lv": 6.5
+			},
+			{
+				"lv": 9.5
+			},
+			{
+				"lv": 13.2
+			}
+		]
+	},
+	"1819": {
+		"name": "AFTER PANDORA",
+		"ver": "25513",
+		"composer": "削除",
+		"genre": "maimai",
+		"notes": [
+			{
+				"lv": 3
+			},
+			{
+				"lv": 7.7
+			},
+			{
+				"lv": 12.5
+			},
+			{
+				"lv": 14.2
+			}
+		]
+	},
 	"2008": {
 		"name": "TiamaT F minor",
 		"ver": "22001",
@@ -32580,6 +32620,26 @@
 			}
 		]
 	},
+	"10835": {
+		"name": "Believe the Rainbow",
+		"ver": "25513",
+		"composer": "Shoichiro Hirata feat.Sana",
+		"genre": "maimai",
+		"notes": [
+			{
+				"lv": 2
+			},
+			{
+				"lv": 6.2
+			},
+			{
+				"lv": 9.9
+			},
+			{
+				"lv": 13
+			}
+		]
+	},
 	"11001": {
 		"name": "BLACK ROSE",
 		"ver": "20000",
@@ -48059,6 +48119,129 @@
 			}
 		]
 	},
+	"11815": {
+		"name": "IMBRUED:FLUX",
+		"ver": "25512",
+		"composer": "qfeileadh feat.のあ",
+		"genre": "maimai",
+		"notes": [
+			{
+				"lv": 4
+			},
+			{
+				"lv": 7.7
+			},
+			{
+				"lv": 11
+			},
+			{
+				"lv": 14.1
+			}
+		]
+	},
+	"11816": {
+		"name": "砂の函",
+		"ver": "25512",
+		"composer": "Nego_tiator",
+		"genre": "maimai",
+		"notes": [
+			{
+				"lv": 3
+			},
+			{
+				"lv": 6.2
+			},
+			{
+				"lv": 11.2
+			},
+			{
+				"lv": 14
+			}
+		]
+	},
+	"11817": {
+		"name": "Amereistr",
+		"ver": "25512",
+		"composer": "rN",
+		"genre": "maimai",
+		"notes": [
+			{
+				"lv": 5
+			},
+			{
+				"lv": 8
+			},
+			{
+				"lv": 12.5
+			},
+			{
+				"lv": 13.9
+			}
+		]
+	},
+	"11818": {
+		"name": "World's end BLACKBOX",
+		"ver": "25512",
+		"composer": "打打だいず",
+		"genre": "maimai",
+		"notes": [
+			{
+				"lv": 7.8
+			},
+			{
+				"lv": 10.5
+			},
+			{
+				"lv": 13.1
+			},
+			{
+				"lv": 14.9
+			}
+		]
+	},
+	"11820": {
+		"name": "Xaleid◆scopiX",
+		"ver": "25513",
+		"composer": "xi",
+		"genre": "maimai",
+		"notes": [
+			{
+				"lv": 7.9
+			},
+			{
+				"lv": 11
+			},
+			{
+				"lv": 13.7
+			},
+			{
+				"lv": 14.9
+			},
+			{
+				"lv": 15
+			}
+		]
+	},
+	"11821": {
+		"name": "Ref:rain (for 7th Heaven)",
+		"ver": "25514",
+		"composer": "カモメサノエレクトリックオーケストラ include Limonène",
+		"genre": "maimai",
+		"notes": [
+			{
+				"lv": 4
+			},
+			{
+				"lv": 8
+			},
+			{
+				"lv": 12.5
+			},
+			{
+				"lv": 14
+			}
+		]
+	},
 	"11822": {
 		"name": "Supersonic Generation",
 		"ver": "25500",
@@ -48153,6 +48336,26 @@
 			},
 			{
 				"lv": 10.8
+			},
+			{
+				"lv": 13.7
+			}
+		]
+	},
+	"11827": {
+		"name": "サウンドプレイヤー",
+		"ver": "25512",
+		"composer": "tilt-six feat.バル",
+		"genre": "オンゲキCHUNITHM",
+		"notes": [
+			{
+				"lv": 3
+			},
+			{
+				"lv": 7
+			},
+			{
+				"lv": 10
 			},
 			{
 				"lv": 13.7
