@@ -260,6 +260,7 @@ export interface Env {
 export interface BotEnv extends Env {
 	ADMIN_UIDS: string;
 	ADMIN_SECRET: string;
+	ADMIN_BASE?: string;
 	GENIUS_SECRET: string;
 	TELEGRAPH_SECRET: string;
 	DEEPL_AUTH_KEY: string;

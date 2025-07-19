@@ -1,8 +1,11 @@
 export default class AdminClient {
-	constructor(private readonly secret: string) {
+	constructor(private readonly secret: string, baseUrl?: string) {
+		if (baseUrl) {
+			this.BASE_URL = baseUrl;
+		}
 	}
 
-	private readonly BASE_URL = 'https://aquadx.net/aqua/api/v2/bot';
+	private readonly BASE_URL: string = 'https://aquadx.net/aqua/api/v2/bot';
 
 	private async baseRequest(method: string, params: Record<string, string> = {}) {
 		const url = new URL(`${this.BASE_URL}/${method}`);

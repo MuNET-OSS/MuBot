@@ -5,7 +5,7 @@ import { BuilderEnv } from '../../botBuilder';
 import UserContext from '../../UserContext';
 
 export default <T extends BotTypes>({ bot, env, getContext, musicToFile }: BuilderEnv<T>) => {
-	const client = new AdminClient(env.ADMIN_SECRET);
+	const client = new AdminClient(env.ADMIN_SECRET, env.ADMIN_BASE);
 	const admins = env.ADMIN_UIDS.split(',');
 
 	const checkAdminUser = (fromId: T['ChatId']) => {
