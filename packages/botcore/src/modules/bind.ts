@@ -15,9 +15,9 @@ export default <T extends BotTypes>({ bot, env, getContext, musicToFile, enableO
 		}
 		let botExtra = '';
 		if (env.BOT_TYPE == 'qq') {
-			botExtra = '\n2025 / 8 / 15 之前，默认绑定的网络为 AquaDX，2025 / 8 / 15 之后将更改为 MuNET';
+			botExtra = '\n2025/8/15 之前，默认绑定的网络为 AquaDX，2025/8/15 之后将更改为 MuNET';
 		} else if (env.BOT_TYPE == 'qq-official') {
-			botExtra = '\n正在逐步停止 QQ 官方 Bot 的支持，请使用 QQ 号 3087530651 的 Bot。官方 Bot 的绑定将于 2025 / 8 / 15 之后停止，已绑定的用户可以继续使用，但无法再绑定新的用户。';
+			botExtra = '\n正在逐步停止 QQ 官方 Bot 的支持，请使用 QQ 号 3087530651 的 Bot。官方 Bot 的绑定将于 2025/8/15 之后停止，已绑定的用户可以继续使用，但无法再绑定新的用户。';
 		}
 		await reply
 			.setHtml('用法: /bind [--munet] [--aquadx] <code>AquaDX / MuNET 的用户名</code>' + (enableOfficialServers ? ' 或 <code>国服微信二维码识别出来的文字</code> 或 <code>AIME 卡背后的 20 位数字（国际服）</code>' : '') +
@@ -43,7 +43,7 @@ export default <T extends BotTypes>({ bot, env, getContext, musicToFile, enableO
 
 		if (env.BOT_TYPE == 'qq-official' && Date.now() / 1000 > time) {
 			await event.reply()
-				.setText('正在逐步停止 QQ 官方 Bot 的支持，请使用 QQ 号 3087530651 的 Bot。官方 Bot 的绑定已于 2025 / 8 / 15 之后停止，已绑定的用户可以继续使用，但无法再绑定新的用户。')
+				.setText('正在逐步停止 QQ 官方 Bot 的支持，请使用 QQ 号 3087530651 的 Bot。官方 Bot 的绑定已于 2025/8/15 停止，已绑定的用户可以继续使用，但无法再绑定新的用户。')
 				.dispatch();
 			return true;
 		}
@@ -89,7 +89,7 @@ export default <T extends BotTypes>({ bot, env, getContext, musicToFile, enableO
 				profile = await UserProfile.create({ type: 'Minato', username: param }, env);
 			} catch (e) {
 				await event.reply()
-					.setText('绑定失败\n' + e.message + '\n请注意，2025 / 8 / 15 之前，默认绑定的网络为 AquaDX，2025 / 8 / 15 之后将更改为 MuNET')
+					.setText('绑定失败\n' + e.message + '\n请注意，2025/8/15 之前，默认绑定的网络为 AquaDX，2025/8/15 之后将更改为 MuNET')
 					.dispatch();
 				return true;
 			}
@@ -98,7 +98,7 @@ export default <T extends BotTypes>({ bot, env, getContext, musicToFile, enableO
 				profile = await UserProfile.create({ type: 'AquaDX-v2', username: param }, env);
 			} catch (e) {
 				await event.reply()
-					.setText('绑定失败\n' + e.message + '\n请注意，2025 / 8 / 15 之前，默认绑定的网络为 AquaDX，2025 / 8 / 15 之后将更改为 MuNET')
+					.setText('绑定失败\n' + e.message + '\n请注意，2025/8/15 之前，默认绑定的网络为 AquaDX，2025/8/15 之后将更改为 MuNET')
 					.dispatch();
 				return true;
 			}
