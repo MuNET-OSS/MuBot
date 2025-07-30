@@ -264,6 +264,7 @@ export interface BotEnv extends Env {
 	GENIUS_SECRET: string;
 	TELEGRAPH_SECRET: string;
 	DEEPL_AUTH_KEY: string;
+	BOT_TYPE: 'qq' | 'telegram' | 'qq-official';
 }
 
 export type MaiVersion = 140 | 145 | 150 | 155

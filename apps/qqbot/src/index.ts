@@ -29,6 +29,7 @@ process.on('uncaughtException', (error: any) => {
 });
 
 env.KV = new LevelKV();
+env.BOT_TYPE = 'qq';
 const renderer = new Renderer();
 
 const bot = new BotAdapter(env);

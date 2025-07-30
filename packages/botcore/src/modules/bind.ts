@@ -4,6 +4,8 @@ import { BotTypes, MessageButtonCallback, SendMessageAction } from '@clansty/mai
 import { BuilderEnv } from '../botBuilder';
 import UserContext from '../UserContext';
 
+const time = 1755187200;
+
 export default <T extends BotTypes>({ bot, env, getContext, musicToFile, enableOfficialServers }: BuilderEnv<T>) => {
 	const handleQueryBind = async (ctx: UserContext<T>, reply: SendMessageAction<T>) => {
 		const profiles = await ctx.getProfiles();
@@ -11,9 +13,15 @@ export default <T extends BotTypes>({ bot, env, getContext, musicToFile, enableO
 		if (profiles.length) {
 			bond += `\n\n现在已经绑定 ${profiles.length} 个账号\n使用 /profile 命令来查看已经绑定的账号\n使用 /delprofile 命令可以删除已经绑定的账号`;
 		}
+		let botExtra = '';
+		if (env.BOT_TYPE == 'qq') {
+			botExtra = '\n2025 / 8 / 15 之前，默认绑定的网络为 AquaDX，2025 / 8 / 15 之后将更改为 MuNET';
+		} else if (env.BOT_TYPE == 'qq-official') {
+			botExtra = '\n正在逐步停止 QQ 官方 Bot 的支持，请使用 QQ 号 3087530651 的 Bot。官方 Bot 的绑定将于 2025 / 8 / 15 之后停止，已绑定的用户可以继续使用，但无法再绑定新的用户。';
+		}
 		await reply
 			.setHtml('用法: /bind [--munet] [--aquadx] <code>AquaDX / MuNET 的用户名</code>' + (enableOfficialServers ? ' 或 <code>国服微信二维码识别出来的文字</code> 或 <code>AIME 卡背后的 20 位数字（国际服）</code>' : '') +
-				'\n2025 / 8 / 15 之前，默认绑定的网络为 AquaDX，2025 / 8 / 15 之后将更改为 MuNET' + bond)
+				botExtra + bond)
 			.dispatch();
 	};
 
@@ -33,10 +41,16 @@ export default <T extends BotTypes>({ bot, env, getContext, musicToFile, enableO
 			return true;
 		}
 
+		if (env.BOT_TYPE == 'qq-official' && Date.now() / 1000 > time) {
+			await event.reply()
+				.setText('正在逐步停止 QQ 官方 Bot 的支持，请使用 QQ 号 3087530651 的 Bot。官方 Bot 的绑定已于 2025 / 8 / 15 之后停止，已绑定的用户可以继续使用，但无法再绑定新的用户。')
+				.dispatch();
+			return true;
+		}
+
 		let minato = event.params.includes('--minato') || event.params.includes('--munet') || event.params.includes('—munet') || event.params.includes('-munet');
 		let aquadx = event.params.includes('--aquadx') || event.params.includes('—aquadx') || event.params.includes('-aquadx');
 
-		const time = 1755187200;
 		if (!minato && !aquadx) {
 			if (Date.now() / 1000 < time) {
 				aquadx = true;

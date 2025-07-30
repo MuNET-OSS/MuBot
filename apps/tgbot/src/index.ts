@@ -25,6 +25,7 @@ export default withSentry(
 );
 
 const tryHandleUpdate = async (update: Update, env: Env) => {
+	env.BOT_TYPE = 'qq-official';
 	const bot = createBot(env);
 	try {
 		await bot.handleUpdate(update);
