@@ -12,7 +12,8 @@ export default <T extends BotTypes>({ bot, env, getContext, musicToFile, enableO
 			bond += `\n\n现在已经绑定 ${profiles.length} 个账号\n使用 /profile 命令来查看已经绑定的账号\n使用 /delprofile 命令可以删除已经绑定的账号`;
 		}
 		await reply
-			.setHtml('用法: /bind <code>AquaDX 的用户名</code>' + (enableOfficialServers ? ' 或 <code>国服微信二维码识别出来的文字</code> 或 <code>AIME 卡背后的 20 位数字（国际服）</code>' : '') + bond)
+			.setHtml('用法: /bind [--munet] [--aquadx] <code>AquaDX / MuNET 的用户名</code>' + (enableOfficialServers ? ' 或 <code>国服微信二维码识别出来的文字</code> 或 <code>AIME 卡背后的 20 位数字（国际服）</code>' : '') +
+				'\n2025 / 8 / 15 之前，默认绑定的网络为 AquaDX，2025 / 8 / 15 之后将更改为 MuNET' + bond)
 			.dispatch();
 	};
 
@@ -32,9 +33,19 @@ export default <T extends BotTypes>({ bot, env, getContext, musicToFile, enableO
 			return true;
 		}
 
-		const minato = event.params.includes('--minato') || event.params.includes('--munet') || event.params.includes('—munet') || event.params.includes('-munet');
+		let minato = event.params.includes('--minato') || event.params.includes('--munet') || event.params.includes('—munet') || event.params.includes('-munet');
+		let aquadx = event.params.includes('--aquadx') || event.params.includes('—aquadx') || event.params.includes('-aquadx');
 
-		const param = event.params.filter(it => it !== '--minato' && it !== '--munet' && it !== '-munet' && it !== '—munet').join('');
+		const time = 1755187200;
+		if (!minato && !aquadx) {
+			if (Date.now() / 1000 < time) {
+				aquadx = true;
+			} else {
+				minato = true;
+			}
+		}
+
+		const param = event.params.filter(it => !it.startsWith('-') && !it.startsWith('—')).join('');
 		let profile: UserProfile;
 
 		if (/^\d{20}$/.test(param) && enableOfficialServers) { // is AIME
@@ -60,9 +71,23 @@ export default <T extends BotTypes>({ bot, env, getContext, musicToFile, enableO
 				return true;
 			}
 		} else if (minato) {
-			profile = await UserProfile.create({ type: 'Minato', username: param }, env);
-		} else {
-			profile = await UserProfile.create({ type: 'AquaDX-v2', username: param }, env);
+			try {
+				profile = await UserProfile.create({ type: 'Minato', username: param }, env);
+			} catch (e) {
+				await event.reply()
+					.setText('绑定失败\n' + e.message + '\n请注意，2025 / 8 / 15 之前，默认绑定的网络为 AquaDX，2025 / 8 / 15 之后将更改为 MuNET')
+					.dispatch();
+				return true;
+			}
+		} else if (aquadx) {
+			try {
+				profile = await UserProfile.create({ type: 'AquaDX-v2', username: param }, env);
+			} catch (e) {
+				await event.reply()
+					.setText('绑定失败\n' + e.message + '\n请注意，2025 / 8 / 15 之前，默认绑定的网络为 AquaDX，2025 / 8 / 15 之后将更改为 MuNET')
+					.dispatch();
+				return true;
+			}
 		}
 
 		profiles.push(profile);
