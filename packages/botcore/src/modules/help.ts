@@ -44,13 +44,34 @@ ${enableOfficialServers ? `本 Bot 主要基于 AquaDX.Net 制作，同时支持
 	bot.registerCommand('help', async (event) => {
 		const reply = event.reply()
 			.setHtml(BASE_HELP)
-			.disableLinkPreview()
-			.setJsonMessage(`{"app":"com.tencent.multimsg","config":{"autosize":1,"forward":1,"round":1,"type":"normal","width":300},
-				"desc":"[帮助]","extra":"{\\"filename\\":\\"7479b09c-c396-4bc5-8d71-f5ab8b94b693\\",\\"tsum\\":17}\\n",
-				"meta":{"detail":{"news":[{"text":"绑定账号"},{"text":"查歌"},{"text":"牌子进度和图片生成"},{"text":"B50"},{"text":"难度成绩表"}],
-				"resid":"62jGM7bzGvGrCGQ9HddeIJ5Q/MUGf/GhmNgyQbTaFbCM0j//KZfuzXJwBLg2bI1K",
-				"source":"AquaDX Bot 帮助","summary":"点击打开查看",
-				"uniseq":"7479b09c-c396-4bc5-8d71-f5ab8b94b693"}},"prompt":"[帮助]","ver":"0.0.0.5","view":"contact"}`);
+			.disableLinkPreview();
+		const bundle = reply.addBundledMessage()
+			.setPrompt('[帮助]')
+			.setTitle('AquaDX Bot 帮助')
+			.setSummary('点击打开查看');
+		bundle.addNode()
+			.setText('AquaDX.Net 查分 & maimai 歌曲查询 Bot');
+		bundle.addNode()
+			.setText(`绑定账号\n
+使用 /bind AquaDX 的用户名${enableOfficialServers ? ' 或 国服微信二维码识别出来的文字 或 AIME 卡背后的 20 位数字（国际服）' : ''} 来绑定账号
+支持一个人同时绑定多个账号，可以通过 /profile 来查看和切换绑定的账号
+通过 /delprofile 来删除绑定的账号`);
+		bundle.addNode()
+			.setText(`查歌\n
+使用 /search 歌曲名称或者别名 来搜索歌曲信息`);
+		bundle.addNode()
+			.setText(`使用 /query 歌曲名称或者别名 来搜索自己的成绩`);
+		bundle.addNode()
+			.setText(`牌子进度和图片生成\n
+输入 牌子名称进度 来查询牌子进度，比如说 霸者进度`);
+		bundle.addNode()
+			.setText(`输入 牌子名称完成表 来查询指定的牌子 🟣Master 以上难度歌曲的完成情况，将生成图片发送`);
+		bundle.addNode()
+			.setText(`输入 难度完成表 来查询指定难度所有歌曲的完成情况，将生成图片发送，比如说 13 完成表`);
+		bundle.addNode()
+			.setText(`使用 /b50 来生成 B50 成绩图`);
+		bundle.addNode()
+			.setText(`输入 难度成绩表 来查询指定难度前 100 首成绩最好的歌，比如说 13 成绩表`);
 		await reply.dispatch();
 		return true;
 	});
