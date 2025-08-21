@@ -2,12 +2,7 @@ import { Env } from '../types';
 import puppeteer, { Browser } from '@cloudflare/puppeteer';
 import { DurableObjectState } from '@cloudflare/workers-types';
 
-// 渲染过程（打开 Page）应该是可以并行的，所以这个更应该用 Durable object 而不是 queue
-
-const KEEP_BROWSER_ALIVE_IN_SECONDS = 300;
-
 export class Renderer implements DurableObject {
-	keptAliveInSeconds = 0;
 	browser: Browser;
 
 	constructor(private readonly state: DurableObjectState, private readonly env: Env) {
@@ -17,9 +12,6 @@ export class Renderer implements DurableObject {
 		try {
 			const { url, width } = await request.json() as { url: string, width: number };
 			const result = await this.renderHtml(url, width);
-
-			// Reset keptAlive after performing tasks to the DO.
-			this.keptAliveInSeconds = 0;
 
 			return new Response(result.data, {
 				headers: {
@@ -44,17 +36,6 @@ export class Renderer implements DurableObject {
 			}
 		}
 
-		// Reset keptAlive after each call to the DO
-		this.keptAliveInSeconds = 0;
-
-		// set the first alarm to keep DO alive
-		let currentAlarm = await this.state.storage.getAlarm();
-		if (currentAlarm == null) {
-			console.log(`Browser DO: setting alarm`);
-			const TEN_SECONDS = 10 * 1000;
-			await this.state.storage.setAlarm(Date.now() + TEN_SECONDS);
-		}
-
 		return await this.browser.newPage();
 	}
 
@@ -71,25 +52,5 @@ export class Renderer implements DurableObject {
 
 		this.state.waitUntil(page.close()); // async
 		return { data, width, height };
-	}
-
-	async alarm() {
-		this.keptAliveInSeconds += 10;
-
-		// Extend browser DO life
-		if (this.keptAliveInSeconds < KEEP_BROWSER_ALIVE_IN_SECONDS) {
-			console.log(`Browser DO: has been kept alive for ${this.keptAliveInSeconds} seconds. Extending lifespan.`);
-			await this.state.storage.setAlarm(Date.now() + 10 * 1000);
-			// You could ensure the ws connection is kept alive by requesting something
-			// or just let it close automatically when there  is no work to be done
-			// for example, `await this.browser.version()`
-			await this.browser.version();
-		} else {
-			console.log(`Browser DO: exceeded life of ${KEEP_BROWSER_ALIVE_IN_SECONDS}s.`);
-			if (this.browser) {
-				console.log(`Closing browser.`);
-				await this.browser.close();
-			}
-		}
 	}
 }
