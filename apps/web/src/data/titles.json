@@ -6,7 +6,7 @@
   },
   {
     "id": "000002",
-    "name": "Random selection from all",
+    "name": "全体からランダム",
     "rare": "Normal"
   },
   {
@@ -191,8 +191,8 @@
   },
   {
     "id": "000047",
-    "name": "Eat → Sleep → DX → Repeat　　　　　　　　　　Eat → Sleep → DX → Repeat　　　　　　　　　　Eat → Sleep → DX → Repeat　　　　　　　　　　Eat → Sleep → DX → Repeat　　　　　　　　　　Eat → Sleep → DX → Repeat　　　　　　　　　　Eat → Sleep → DX → Repeat",
-    "rare": "Normal"
+    "name": "第一回全国大会予選4突破",
+    "rare": "Gold"
   },
   {
     "id": "000048",
@@ -3521,87 +3521,87 @@
   },
   {
     "id": "100012",
-    "name": "れーてぃんぐ1000たっせい～！ スプラッシュ",
+    "name": "れーてぃんぐ1000たっせい～！ Splash",
     "rare": "Normal"
   },
   {
     "id": "100013",
-    "name": "れーてぃんぐ2000たっせい～！ スプラッシュ",
+    "name": "れーてぃんぐ2000たっせい～！ Splash",
     "rare": "Normal"
   },
   {
     "id": "100014",
-    "name": "れーてぃんぐ3000たっせい～！ スプラッシュ",
+    "name": "れーてぃんぐ3000たっせい～！ Splash",
     "rare": "Normal"
   },
   {
     "id": "100015",
-    "name": "れーてぃんぐ4000たっせい～！ スプラッシュ",
+    "name": "れーてぃんぐ4000たっせい～！ Splash",
     "rare": "Normal"
   },
   {
     "id": "100016",
-    "name": "れーてぃんぐ5000たっせい～！ スプラッシュ",
+    "name": "れーてぃんぐ5000たっせい～！ Splash",
     "rare": "Normal"
   },
   {
     "id": "100017",
-    "name": "れーてぃんぐ6000たっせい～！ スプラッシュ",
+    "name": "れーてぃんぐ6000たっせい～！ Splash",
     "rare": "Bronze"
   },
   {
     "id": "100018",
-    "name": "れーてぃんぐ7000たっせい～！ スプラッシュ",
+    "name": "れーてぃんぐ7000たっせい～！ Splash",
     "rare": "Silver"
   },
   {
     "id": "100019",
-    "name": "れーてぃんぐ8000たっせい～！ スプラッシュ",
+    "name": "れーてぃんぐ8000たっせい～！ Splash",
     "rare": "Gold"
   },
   {
     "id": "100020",
-    "name": "にじれっくま スプラッシュ",
+    "name": "にじれっくま Splash",
     "rare": "Rainbow"
   },
   {
     "id": "100021",
-    "name": "れーてぃんぐ9000たっせい～！ スプラッシュ",
+    "name": "れーてぃんぐ9000たっせい～！ Splash",
     "rare": "Rainbow"
   },
   {
     "id": "100022",
-    "name": "れーてぃんぐ9500たっせい～！ スプラッシュ",
+    "name": "れーてぃんぐ9500たっせい～！ Splash",
     "rare": "Rainbow"
   },
   {
     "id": "100023",
-    "name": "れーてぃんぐ10000たっせい～！ スプラッシュ",
+    "name": "れーてぃんぐ10000たっせい～！ Splash",
     "rare": "Rainbow"
   },
   {
     "id": "100024",
-    "name": "白帯 スプラッシュ",
+    "name": "白帯 Splash",
     "rare": "Bronze"
   },
   {
     "id": "100025",
-    "name": "黒帯 スプラッシュ",
+    "name": "黒帯 Splash",
     "rare": "Bronze"
   },
   {
     "id": "100026",
-    "name": "紅白帯 スプラッシュ",
+    "name": "紅白帯 Splash",
     "rare": "Silver"
   },
   {
     "id": "100027",
-    "name": "紅帯 スプラッシュ",
+    "name": "紅帯 Splash",
     "rare": "Gold"
   },
   {
     "id": "100028",
-    "name": "免許皆伝 スプラッシュ",
+    "name": "免許皆伝 Splash",
     "rare": "Gold"
   },
   {
@@ -3617,7 +3617,7 @@
   {
     "id": "100031",
     "name": "KING of Performai 2020 ファイナリスト",
-    "rare": "Gold"
+    "rare": "Rainbow"
   },
   {
     "id": "100032",
@@ -4996,7 +4996,7 @@
   },
   {
     "id": "150007",
-    "name": "【祝】スプラッシュ PLUS 虹RATING【到達】",
+    "name": "【祝】Splash PLUS 虹RATING【到達】",
     "rare": "Gold"
   },
   {
@@ -6036,47 +6036,47 @@
   },
   {
     "id": "200002",
-    "name": "オトモダチ対戦SEASON1　1位",
+    "name": "オトモダチ対戦シーズン1　1位",
     "rare": "Rainbow"
   },
   {
     "id": "200003",
-    "name": "オトモダチ対戦SEASON1　TOP10",
+    "name": "オトモダチ対戦シーズン1　TOP10",
     "rare": "Gold"
   },
   {
     "id": "200004",
-    "name": "オトモダチ対戦SEASON1　TOP100",
+    "name": "オトモダチ対戦シーズン1　TOP100",
     "rare": "Gold"
   },
   {
     "id": "200005",
-    "name": "オトモダチ対戦SEASON2　1位",
+    "name": "オトモダチ対戦シーズン2　1位",
     "rare": "Rainbow"
   },
   {
     "id": "200006",
-    "name": "オトモダチ対戦SEASON2　TOP10",
+    "name": "オトモダチ対戦シーズン2　TOP10",
     "rare": "Gold"
   },
   {
     "id": "200007",
-    "name": "オトモダチ対戦SEASON2　TOP100",
+    "name": "オトモダチ対戦シーズン2　TOP100",
     "rare": "Gold"
   },
   {
     "id": "200008",
-    "name": "オトモダチ対戦SEASON3　1位",
+    "name": "オトモダチ対戦シーズン3　1位",
     "rare": "Rainbow"
   },
   {
     "id": "200009",
-    "name": "オトモダチ対戦SEASON3　TOP10",
+    "name": "オトモダチ対戦シーズン3　TOP10",
     "rare": "Gold"
   },
   {
     "id": "200010",
-    "name": "オトモダチ対戦SEASON3　TOP100",
+    "name": "オトモダチ対戦シーズン3　TOP100",
     "rare": "Gold"
   },
   {
@@ -6111,7 +6111,7 @@
   },
   {
     "id": "200201",
-    "name": "ルキ 推し",
+    "name": "白明星ルキ 推し",
     "rare": "Silver"
   },
   {
@@ -7306,47 +7306,47 @@
   },
   {
     "id": "250002",
-    "name": "オトモダチ対戦SEASON4　1位",
+    "name": "オトモダチ対戦シーズン4　1位",
     "rare": "Rainbow"
   },
   {
     "id": "250003",
-    "name": "オトモダチ対戦SEASON4　TOP10",
+    "name": "オトモダチ対戦シーズン4　TOP10",
     "rare": "Gold"
   },
   {
     "id": "250004",
-    "name": "オトモダチ対戦SEASON4　TOP100",
+    "name": "オトモダチ対戦シーズン4　TOP100",
     "rare": "Gold"
   },
   {
     "id": "250005",
-    "name": "オトモダチ対戦SEASON5　1位",
+    "name": "オトモダチ対戦シーズン5　1位",
     "rare": "Rainbow"
   },
   {
     "id": "250006",
-    "name": "オトモダチ対戦SEASON5　TOP10",
+    "name": "オトモダチ対戦シーズン5　TOP10",
     "rare": "Gold"
   },
   {
     "id": "250007",
-    "name": "オトモダチ対戦SEASON5　TOP100",
+    "name": "オトモダチ対戦シーズン5　TOP100",
     "rare": "Gold"
   },
   {
     "id": "250008",
-    "name": "オトモダチ対戦SEASON6　1位",
+    "name": "オトモダチ対戦シーズン6　1位",
     "rare": "Rainbow"
   },
   {
     "id": "250009",
-    "name": "オトモダチ対戦SEASON6　TOP10",
+    "name": "オトモダチ対戦シーズン6　TOP10",
     "rare": "Gold"
   },
   {
     "id": "250010",
-    "name": "オトモダチ対戦SEASON6　TOP100",
+    "name": "オトモダチ対戦シーズン6　TOP100",
     "rare": "Gold"
   },
   {
@@ -7382,7 +7382,7 @@
   {
     "id": "250017",
     "name": "KING of Performai The 3rd ファイナリスト",
-    "rare": "Gold"
+    "rare": "Rainbow"
   },
   {
     "id": "250018",
@@ -8611,47 +8611,47 @@
   },
   {
     "id": "300002",
-    "name": "オトモダチ対戦SEASON7　1位",
+    "name": "オトモダチ対戦シーズン7　1位",
     "rare": "Rainbow"
   },
   {
     "id": "300003",
-    "name": "オトモダチ対戦SEASON7　TOP10",
+    "name": "オトモダチ対戦シーズン7　TOP10",
     "rare": "Gold"
   },
   {
     "id": "300004",
-    "name": "オトモダチ対戦SEASON7　TOP100",
+    "name": "オトモダチ対戦シーズン7　TOP100",
     "rare": "Gold"
   },
   {
     "id": "300005",
-    "name": "オトモダチ対戦SEASON8　1位",
+    "name": "オトモダチ対戦シーズン8　1位",
     "rare": "Rainbow"
   },
   {
     "id": "300006",
-    "name": "オトモダチ対戦SEASON8　TOP10",
+    "name": "オトモダチ対戦シーズン8　TOP10",
     "rare": "Gold"
   },
   {
     "id": "300007",
-    "name": "オトモダチ対戦SEASON8　TOP100",
+    "name": "オトモダチ対戦シーズン8　TOP100",
     "rare": "Gold"
   },
   {
     "id": "300008",
-    "name": "オトモダチ対戦SEASON9　1位",
+    "name": "オトモダチ対戦シーズン9　1位",
     "rare": "Rainbow"
   },
   {
     "id": "300009",
-    "name": "オトモダチ対戦SEASON9　TOP10",
+    "name": "オトモダチ対戦シーズン9　TOP10",
     "rare": "Gold"
   },
   {
     "id": "300010",
-    "name": "オトモダチ対戦SEASON9　TOP100",
+    "name": "オトモダチ対戦シーズン9　TOP100",
     "rare": "Gold"
   },
   {
@@ -8841,32 +8841,32 @@
   },
   {
     "id": "300048",
-    "name": "オトモダチ対戦SEASON7　TOP500",
+    "name": "オトモダチ対戦シーズン7　TOP500",
     "rare": "Silver"
   },
   {
     "id": "300049",
-    "name": "オトモダチ対戦SEASON7　TOP1000",
+    "name": "オトモダチ対戦シーズン7　TOP1000",
     "rare": "Silver"
   },
   {
     "id": "300050",
-    "name": "オトモダチ対戦SEASON8　TOP500",
+    "name": "オトモダチ対戦シーズン8　TOP500",
     "rare": "Silver"
   },
   {
     "id": "300051",
-    "name": "オトモダチ対戦SEASON8　TOP1000",
+    "name": "オトモダチ対戦シーズン8　TOP1000",
     "rare": "Silver"
   },
   {
     "id": "300052",
-    "name": "オトモダチ対戦SEASON9　TOP500",
+    "name": "オトモダチ対戦シーズン9　TOP500",
     "rare": "Silver"
   },
   {
     "id": "300053",
-    "name": "オトモダチ対戦SEASON9　TOP1000",
+    "name": "オトモダチ対戦シーズン9　TOP1000",
     "rare": "Silver"
   },
   {
@@ -10376,7 +10376,7 @@
   },
   {
     "id": "350019",
-    "name": "KING of Performai The 4th BEST 8",
+    "name": "KING of Performai The 4th ファイナリスト",
     "rare": "Rainbow"
   },
   {
@@ -13616,7 +13616,7 @@
   },
   {
     "id": "000003",
-    "name": "Random selection from favorite",
+    "name": "お気に入りからランダム",
     "rare": "Normal"
   },
   {
@@ -13636,7 +13636,7 @@
   },
   {
     "id": "450019",
-    "name": "KING of Performai The 5th BEST 8",
+    "name": "KING of Performai The 5th ファイナリスト",
     "rare": "Rainbow"
   },
   {
@@ -15511,7 +15511,7 @@
   },
   {
     "id": "505701",
-    "name": "エト&ルナ (Winter) 推し",
+    "name": "エト&ルナ（ウィンター） 推し",
     "rare": "Silver"
   },
   {
@@ -16657,6 +16657,1576 @@
   {
     "id": "508510",
     "name": "暗いよー!!怖いよー!!",
+    "rare": "Normal"
+  },
+  {
+    "id": "500301",
+    "name": "フォッサノーバ 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "500302",
+    "name": "ディオティス 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "500303",
+    "name": "クレメンス（エージェント） 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "500304",
+    "name": "エレノラ（エージェント） 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "500305",
+    "name": "ディオティス（天使） 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "500399",
+    "name": "創世の扉",
+    "rare": "Gold"
+  },
+  {
+    "id": "500401",
+    "name": "リグエル 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "500402",
+    "name": "酒呑童子 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "500403",
+    "name": "濡羽 ガチ勢",
+    "rare": "Silver"
+  },
+  {
+    "id": "500404",
+    "name": "黒姫 BIG LOVE",
+    "rare": "Silver"
+  },
+  {
+    "id": "500499",
+    "name": "天地を投影せし扉",
+    "rare": "Gold"
+  },
+  {
+    "id": "508116",
+    "name": "地獄",
+    "rare": "Gold"
+  },
+  {
+    "id": "508117",
+    "name": "シスターシスター",
+    "rare": "Gold"
+  },
+  {
+    "id": "508118",
+    "name": "Flashback",
+    "rare": "Gold"
+  },
+  {
+    "id": "508119",
+    "name": "Colorfull:Encounter",
+    "rare": "Gold"
+  },
+  {
+    "id": "508168",
+    "name": "有明/Ariake",
+    "rare": "Gold"
+  },
+  {
+    "id": "508169",
+    "name": "雨露霜雪",
+    "rare": "Gold"
+  },
+  {
+    "id": "508170",
+    "name": "宙天",
+    "rare": "Gold"
+  },
+  {
+    "id": "508171",
+    "name": "On your mark (104期 Ver.)",
+    "rare": "Gold"
+  },
+  {
+    "id": "508550",
+    "name": "地獄めぐり",
+    "rare": "Normal"
+  },
+  {
+    "id": "508567",
+    "name": "完全栄養食（かんぜんえいようしょく・英語: complete nutritional food）とは、中華麺とスープを主とし、様々な具としてチャーシュー・メンマ・味付け玉子・刻み葱・海苔などを組み合わせた、人間が健康を維持するために必要な栄養素を全て含んだ食品である。",
+    "rare": "Normal"
+  },
+  {
+    "id": "508568",
+    "name": "ゆめひらり　ゆめひらり",
+    "rare": "Normal"
+  },
+  {
+    "id": "508569",
+    "name": "僕は僕を信じたい",
+    "rare": "Bronze"
+  },
+  {
+    "id": "508570",
+    "name": "蓮ノ空女学院スクールアイドルクラブ",
+    "rare": "Normal"
+  },
+  {
+    "id": "508571",
+    "name": "蓮ノ空のこと好き好きクラブのみなさん",
+    "rare": "Normal"
+  },
+  {
+    "id": "550001",
+    "name": "【祝】PRiSM PLUS 虹RATING【到達】",
+    "rare": "Gold"
+  },
+  {
+    "id": "550002",
+    "name": "オトモダチ対戦シーズン22　1位",
+    "rare": "Rainbow"
+  },
+  {
+    "id": "550003",
+    "name": "オトモダチ対戦シーズン22　TOP10",
+    "rare": "Gold"
+  },
+  {
+    "id": "550004",
+    "name": "オトモダチ対戦シーズン22　TOP100",
+    "rare": "Gold"
+  },
+  {
+    "id": "550005",
+    "name": "オトモダチ対戦シーズン22　TOP500",
+    "rare": "Silver"
+  },
+  {
+    "id": "550006",
+    "name": "オトモダチ対戦シーズン22　TOP1000",
+    "rare": "Silver"
+  },
+  {
+    "id": "550007",
+    "name": "オトモダチ対戦シーズン23　1位",
+    "rare": "Rainbow"
+  },
+  {
+    "id": "550008",
+    "name": "オトモダチ対戦シーズン23　TOP10",
+    "rare": "Gold"
+  },
+  {
+    "id": "550009",
+    "name": "オトモダチ対戦シーズン23　TOP100",
+    "rare": "Gold"
+  },
+  {
+    "id": "550010",
+    "name": "オトモダチ対戦シーズン23　TOP500",
+    "rare": "Silver"
+  },
+  {
+    "id": "550011",
+    "name": "オトモダチ対戦シーズン23　TOP1000",
+    "rare": "Silver"
+  },
+  {
+    "id": "550012",
+    "name": "オトモダチ対戦シーズン24　1位",
+    "rare": "Rainbow"
+  },
+  {
+    "id": "550013",
+    "name": "オトモダチ対戦シーズン24　TOP10",
+    "rare": "Gold"
+  },
+  {
+    "id": "550014",
+    "name": "オトモダチ対戦シーズン24　TOP100",
+    "rare": "Gold"
+  },
+  {
+    "id": "550015",
+    "name": "オトモダチ対戦シーズン24　TOP500",
+    "rare": "Silver"
+  },
+  {
+    "id": "550016",
+    "name": "オトモダチ対戦シーズン24　TOP1000",
+    "rare": "Silver"
+  },
+  {
+    "id": "550017",
+    "name": "KING of Performai The 6th 優勝",
+    "rare": "Rainbow"
+  },
+  {
+    "id": "550018",
+    "name": "KING of Performai The 6th 準優勝",
+    "rare": "Rainbow"
+  },
+  {
+    "id": "550019",
+    "name": "KING of Performai The 6th ファイナリスト",
+    "rare": "Rainbow"
+  },
+  {
+    "id": "550020",
+    "name": "参加したぜKING of Performai The 6th",
+    "rare": "Silver"
+  },
+  {
+    "id": "550021",
+    "name": "予想したぜKING of Performai The 6th",
+    "rare": "Silver"
+  },
+  {
+    "id": "550022",
+    "name": "見届けたぜKING of Performai The 6th",
+    "rare": "Silver"
+  },
+  {
+    "id": "550023",
+    "name": "KOP6th現地勢",
+    "rare": "Gold"
+  },
+  {
+    "id": "550024",
+    "name": "KING of Performai The 6th LCQ出場",
+    "rare": "Rainbow"
+  },
+  {
+    "id": "550025",
+    "name": "KING of Performai The 5th LCQ出場",
+    "rare": "Rainbow"
+  },
+  {
+    "id": "550026",
+    "name": "スコアアタックThe 6th 1位",
+    "rare": "Rainbow"
+  },
+  {
+    "id": "550027",
+    "name": "スコアアタックThe 6th TOP10",
+    "rare": "Gold"
+  },
+  {
+    "id": "550028",
+    "name": "スコアアタックThe 6th TOP100",
+    "rare": "Gold"
+  },
+  {
+    "id": "550029",
+    "name": "スコアアタックThe 6th TOP1000",
+    "rare": "Silver"
+  },
+  {
+    "id": "550030",
+    "name": "スコアアタックThe 6th TOP10000",
+    "rare": "Bronze"
+  },
+  {
+    "id": "550031",
+    "name": "僕はイヤホンが欲しかっただけなのに…",
+    "rare": "Gold"
+  },
+  {
+    "id": "550032",
+    "name": "牛乳に…勝ちたい…ッ！！",
+    "rare": "Gold"
+  },
+  {
+    "id": "550033",
+    "name": "さっきから別世界の話を聞いてる気分になる。",
+    "rare": "Gold"
+  },
+  {
+    "id": "550034",
+    "name": "救われる命があった！",
+    "rare": "Gold"
+  },
+  {
+    "id": "550035",
+    "name": "まだなりません みんなずるい",
+    "rare": "Gold"
+  },
+  {
+    "id": "550036",
+    "name": "また一つ賢くなった…感謝……",
+    "rare": "Gold"
+  },
+  {
+    "id": "550037",
+    "name": "取り締まりたいその笑顔",
+    "rare": "Gold"
+  },
+  {
+    "id": "550038",
+    "name": "外しただけなのになんか壊れちゃって…",
+    "rare": "Gold"
+  },
+  {
+    "id": "550039",
+    "name": "今、まさに鉄火場にいます",
+    "rare": "Gold"
+  },
+  {
+    "id": "550040",
+    "name": "時間超過王",
+    "rare": "Gold"
+  },
+  {
+    "id": "550101",
+    "name": "ソルト（ぷりずむ） 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "550102",
+    "name": "みるく（ぷりずむ） 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "550103",
+    "name": "しゃま（ウタヒメナイトストーム） 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "550104",
+    "name": "みるく（ウタヒメナイトストーム） 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "550105",
+    "name": "ソルト（ぷりずむぷらす） 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "550106",
+    "name": "みるく（ぷりずむぷらす） 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "550199",
+    "name": "手を取り頂きで旗を振れ！",
+    "rare": "Gold"
+  },
+  {
+    "id": "555101",
+    "name": "超てんちゃん（てんしのたからばこ） 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "555102",
+    "name": "あめちゃん（てんしのたからばこ） 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "555103",
+    "name": "超てんちゃん（私服） 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "555104",
+    "name": "超てんちゃん（浴衣） 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "555105",
+    "name": "超てんちゃん（きゅびずむ） 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "555106",
+    "name": "ぴえん猫 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "555107",
+    "name": "パペット超てんちゃん 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "555108",
+    "name": "超てんちゃん（NEEDY GIRL OVERDOSE） 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "555199",
+    "name": "NEEDY GIRL OVERDOSEちほー2 箱推し",
+    "rare": "Gold"
+  },
+  {
+    "id": "555201",
+    "name": "可不 すき",
+    "rare": "Silver"
+  },
+  {
+    "id": "555202",
+    "name": "星界 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "555203",
+    "name": "裏命 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "555204",
+    "name": "狐子 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "555205",
+    "name": "羽累 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "555299",
+    "name": "神椿市協奏中。ちほー 箱推し",
+    "rare": "Gold"
+  },
+  {
+    "id": "555401",
+    "name": "ポリー 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "555402",
+    "name": "ボル 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "555403",
+    "name": "ポリー（あくび） 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "555404",
+    "name": "顔のパーツが中心に寄っているポリー 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "555405",
+    "name": "スナネコ 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "555499",
+    "name": "那須どうぶつ王国ちほー 箱推し",
+    "rare": "Gold"
+  },
+  {
+    "id": "555501",
+    "name": "初音ミク（あいたい星人） 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "555502",
+    "name": "初音ミク（ラビットホール） 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "555503",
+    "name": "初音ミク（デビルじゃないもん・黒天使） 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "555504",
+    "name": "初音ミク（ハオ） 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "555599",
+    "name": "DECO*27ちほー2 箱推し",
+    "rare": "Gold"
+  },
+  {
+    "id": "555601",
+    "name": "ビートまりお 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "555602",
+    "name": "八意永琳 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "555603",
+    "name": "因幡てゐ 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "555604",
+    "name": "藤原妹紅 ガチ勢",
+    "rare": "Silver"
+  },
+  {
+    "id": "555605",
+    "name": "蓬莱山輝夜 すき",
+    "rare": "Silver"
+  },
+  {
+    "id": "555606",
+    "name": "鈴仙・優曇華院・イナバ すき",
+    "rare": "Silver"
+  },
+  {
+    "id": "555699",
+    "name": "ビートまりおちほー 箱推し",
+    "rare": "Gold"
+  },
+  {
+    "id": "555701",
+    "name": "小春六花 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "555702",
+    "name": "夏色花梨 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "555703",
+    "name": "花隈千冬 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "555704",
+    "name": "小春六花（私服） 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "555705",
+    "name": "ラキストン 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "555706",
+    "name": "夏色花梨（私服） 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "555707",
+    "name": "エカテリーナ 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "555708",
+    "name": "花隈千冬（私服） 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "555709",
+    "name": "ラークパッチ 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "555799",
+    "name": "小春六花・夏色花梨・花隈千冬ちほー 箱推し",
+    "rare": "Gold"
+  },
+  {
+    "id": "555801",
+    "name": "エル・リベルテ 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "555802",
+    "name": "スザク 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "555803",
+    "name": "暁 凶香 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "555804",
+    "name": "マゼラン・マゼラン／ラブリーハンター 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "555805",
+    "name": "渋沢 ノノ 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "555806",
+    "name": "MIR-201【ヘカティ・ベアトリクス】 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "555899",
+    "name": "CHUNITHMちほー4 箱推し",
+    "rare": "Gold"
+  },
+  {
+    "id": "555901",
+    "name": "三枝明那 すき",
+    "rare": "Silver"
+  },
+  {
+    "id": "555902",
+    "name": "三枝明那（うぇいびー） 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "555903",
+    "name": "三枝明那（UniVerse/A） 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "555904",
+    "name": "三枝明那（UniVerse/B） 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "555999",
+    "name": "三枝明那ちほー 箱推し",
+    "rare": "Gold"
+  },
+  {
+    "id": "556001",
+    "name": "鳩 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "556002",
+    "name": "鳩（Leave All Behind） 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "556003",
+    "name": "鳩（Retribution ～ Cycle of Redemption ～） 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "556004",
+    "name": "鳩（Luminescence） 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "556099",
+    "name": "Phigrosちほー 箱推し",
+    "rare": "Gold"
+  },
+  {
+    "id": "558101",
+    "name": "ネコ日和。",
+    "rare": "Gold"
+  },
+  {
+    "id": "558102",
+    "name": "ゴーゴー幽霊船",
+    "rare": "Gold"
+  },
+  {
+    "id": "558103",
+    "name": "ローリンガール",
+    "rare": "Gold"
+  },
+  {
+    "id": "558104",
+    "name": "Endless, Sleepless Night",
+    "rare": "Gold"
+  },
+  {
+    "id": "558105",
+    "name": "Dragoon",
+    "rare": "Gold"
+  },
+  {
+    "id": "558106",
+    "name": "Fraq",
+    "rare": "Gold"
+  },
+  {
+    "id": "558107",
+    "name": "ウタヒメナイトストーム",
+    "rare": "Gold"
+  },
+  {
+    "id": "558108",
+    "name": "Feel The Luv",
+    "rare": "Gold"
+  },
+  {
+    "id": "558109",
+    "name": "Åntinomiε",
+    "rare": "Gold"
+  },
+  {
+    "id": "558110",
+    "name": "ATLAS RUSH",
+    "rare": "Gold"
+  },
+  {
+    "id": "558121",
+    "name": "Supersonic Generation",
+    "rare": "Gold"
+  },
+  {
+    "id": "558122",
+    "name": "Zitronectar",
+    "rare": "Gold"
+  },
+  {
+    "id": "558123",
+    "name": "なんかノイズにきこえる",
+    "rare": "Gold"
+  },
+  {
+    "id": "558124",
+    "name": "JIGOKU STATION CENTRAL GATE",
+    "rare": "Gold"
+  },
+  {
+    "id": "558125",
+    "name": "Lover's Trick",
+    "rare": "Gold"
+  },
+  {
+    "id": "558126",
+    "name": "サウンドプレイヤー",
+    "rare": "Gold"
+  },
+  {
+    "id": "558127",
+    "name": "crazy (about you)",
+    "rare": "Gold"
+  },
+  {
+    "id": "558128",
+    "name": "Drivessover",
+    "rare": "Gold"
+  },
+  {
+    "id": "558129",
+    "name": "Tidal Wave",
+    "rare": "Gold"
+  },
+  {
+    "id": "558130",
+    "name": "きゅびずむ",
+    "rare": "Gold"
+  },
+  {
+    "id": "558131",
+    "name": "きゅびびびびずむ",
+    "rare": "Gold"
+  },
+  {
+    "id": "558132",
+    "name": "ゆりかご",
+    "rare": "Gold"
+  },
+  {
+    "id": "558133",
+    "name": "月光",
+    "rare": "Gold"
+  },
+  {
+    "id": "558134",
+    "name": "はいよろこんで",
+    "rare": "Gold"
+  },
+  {
+    "id": "558135",
+    "name": "ビビデバ",
+    "rare": "Gold"
+  },
+  {
+    "id": "558136",
+    "name": "シカ色デイズ",
+    "rare": "Gold"
+  },
+  {
+    "id": "558137",
+    "name": "メズマライザー",
+    "rare": "Gold"
+  },
+  {
+    "id": "558138",
+    "name": "ももいろの鍵",
+    "rare": "Gold"
+  },
+  {
+    "id": "558139",
+    "name": "のだ",
+    "rare": "Gold"
+  },
+  {
+    "id": "558140",
+    "name": "Idoratrize World",
+    "rare": "Gold"
+  },
+  {
+    "id": "558141",
+    "name": "Synthesis.",
+    "rare": "Gold"
+  },
+  {
+    "id": "558142",
+    "name": "もういいよ",
+    "rare": "Gold"
+  },
+  {
+    "id": "558143",
+    "name": "モエチャッカファイア",
+    "rare": "Gold"
+  },
+  {
+    "id": "558144",
+    "name": "マヌルネコのうた",
+    "rare": "Gold"
+  },
+  {
+    "id": "558145",
+    "name": "スナネコのうた",
+    "rare": "Gold"
+  },
+  {
+    "id": "558146",
+    "name": "M@GICAL☆CURE! LOVE ♥ SHOT!",
+    "rare": "Gold"
+  },
+  {
+    "id": "558147",
+    "name": "Overjoy ★ OVERDOSE!!",
+    "rare": "Gold"
+  },
+  {
+    "id": "558148",
+    "name": "DATAERR0R",
+    "rare": "Gold"
+  },
+  {
+    "id": "558149",
+    "name": "あいたい星人",
+    "rare": "Gold"
+  },
+  {
+    "id": "558150",
+    "name": "ハオ",
+    "rare": "Gold"
+  },
+  {
+    "id": "558151",
+    "name": "好きな惣菜発表ドラゴン",
+    "rare": "Gold"
+  },
+  {
+    "id": "558152",
+    "name": "Help me, ERINNNNNN!!",
+    "rare": "Gold"
+  },
+  {
+    "id": "558153",
+    "name": "超最終鬼畜妹フランドール・S",
+    "rare": "Gold"
+  },
+  {
+    "id": "558154",
+    "name": "Destined Marionette",
+    "rare": "Gold"
+  },
+  {
+    "id": "558155",
+    "name": "MIRA",
+    "rare": "Gold"
+  },
+  {
+    "id": "558156",
+    "name": "空回りライブラリ",
+    "rare": "Gold"
+  },
+  {
+    "id": "558157",
+    "name": "お呪い",
+    "rare": "Gold"
+  },
+  {
+    "id": "558158",
+    "name": "ありきたりな恋の歌",
+    "rare": "Gold"
+  },
+  {
+    "id": "558159",
+    "name": "∀",
+    "rare": "Gold"
+  },
+  {
+    "id": "558160",
+    "name": "㋰責任集合体",
+    "rare": "Gold"
+  },
+  {
+    "id": "558161",
+    "name": "三日月ステップ 2023",
+    "rare": "Gold"
+  },
+  {
+    "id": "558162",
+    "name": "少女レイ",
+    "rare": "Gold"
+  },
+  {
+    "id": "558163",
+    "name": "少女A",
+    "rare": "Gold"
+  },
+  {
+    "id": "558164",
+    "name": "帝国少女",
+    "rare": "Gold"
+  },
+  {
+    "id": "558165",
+    "name": "うぇいびー",
+    "rare": "Gold"
+  },
+  {
+    "id": "558166",
+    "name": "RED",
+    "rare": "Gold"
+  },
+  {
+    "id": "558167",
+    "name": "ホラフキパペット",
+    "rare": "Gold"
+  },
+  {
+    "id": "558168",
+    "name": "BlackFlagBreaker!!",
+    "rare": "Gold"
+  },
+  {
+    "id": "558169",
+    "name": "クーネル・エンゲイザー",
+    "rare": "Gold"
+  },
+  {
+    "id": "558170",
+    "name": "ゼロトーキング",
+    "rare": "Gold"
+  },
+  {
+    "id": "558171",
+    "name": "抜錨",
+    "rare": "Gold"
+  },
+  {
+    "id": "558172",
+    "name": "NO ONE YES MAN",
+    "rare": "Gold"
+  },
+  {
+    "id": "558173",
+    "name": "Leave All Behind",
+    "rare": "Gold"
+  },
+  {
+    "id": "558174",
+    "name": "Retribution ～ Cycle of Redemption ～",
+    "rare": "Gold"
+  },
+  {
+    "id": "558175",
+    "name": "Luminescence",
+    "rare": "Gold"
+  },
+  {
+    "id": "558176",
+    "name": "Pixel Galaxy",
+    "rare": "Gold"
+  },
+  {
+    "id": "558501",
+    "name": "老人がとなりでじっと見てたよ",
+    "rare": "Normal"
+  },
+  {
+    "id": "558502",
+    "name": "そのすべては――協奏の果てに。",
+    "rare": "Normal"
+  },
+  {
+    "id": "558503",
+    "name": "・・・－－－・・・",
+    "rare": "Normal"
+  },
+  {
+    "id": "558504",
+    "name": "『はい謹んで』",
+    "rare": "Normal"
+  },
+  {
+    "id": "558505",
+    "name": "『あなた方のため』",
+    "rare": "Bronze"
+  },
+  {
+    "id": "558506",
+    "name": "ならば自由に踊った者勝ちでしょう？",
+    "rare": "Bronze"
+  },
+  {
+    "id": "558507",
+    "name": "皆皆 御唱和あれ！",
+    "rare": "Silver"
+  },
+  {
+    "id": "558508",
+    "name": "ぬん",
+    "rare": "Normal"
+  },
+  {
+    "id": "558509",
+    "name": "しかのこのこのここしたんたんしかのこのこのここしたんたんしかのこのこのここしたんたんしかのこのこのここしたんたんしかのこのこのここしたんたんしかのこのこのここしたんたんしかのこのこのここしたんたんしかのこのこのここしたんたん",
+    "rare": "Normal"
+  },
+  {
+    "id": "558510",
+    "name": "誰か、助けてね(^^♪",
+    "rare": "Normal"
+  },
+  {
+    "id": "558511",
+    "name": "Phosphoribosylaminoimidazolesuccinocarboxamide",
+    "rare": "Gold"
+  },
+  {
+    "id": "558512",
+    "name": "これがありのままなのだ",
+    "rare": "Normal"
+  },
+  {
+    "id": "558513",
+    "name": "ちょっと病弱なマイマイマー",
+    "rare": "Bronze"
+  },
+  {
+    "id": "558514",
+    "name": "見えない僕を信じてくれ",
+    "rare": "Silver"
+  },
+  {
+    "id": "558515",
+    "name": "あんまり急に笑うので",
+    "rare": "Bronze"
+  },
+  {
+    "id": "558516",
+    "name": "ワアワアワアワア",
+    "rare": "Bronze"
+  },
+  {
+    "id": "558517",
+    "name": "わたし照らして",
+    "rare": "Normal"
+  },
+  {
+    "id": "558518",
+    "name": "誰がため、人のため",
+    "rare": "Bronze"
+  },
+  {
+    "id": "558519",
+    "name": "あの手この手で",
+    "rare": "Normal"
+  },
+  {
+    "id": "558520",
+    "name": "皆様の見方が少し怖いだけです",
+    "rare": "Normal"
+  },
+  {
+    "id": "558521",
+    "name": "こんなんで誰が喜ぶのさ",
+    "rare": "Normal"
+  },
+  {
+    "id": "558522",
+    "name": "萌萌萌萌",
+    "rare": "Normal"
+  },
+  {
+    "id": "558523",
+    "name": "お冷めな娘",
+    "rare": "Normal"
+  },
+  {
+    "id": "558524",
+    "name": "ヴィクトリア家政",
+    "rare": "Bronze"
+  },
+  {
+    "id": "558525",
+    "name": "マヌりたい、マヌられたい。",
+    "rare": "Normal"
+  },
+  {
+    "id": "558526",
+    "name": "マヌルネコの おしいやつ！",
+    "rare": "Normal"
+  },
+  {
+    "id": "558527",
+    "name": "We just want the 生肉",
+    "rare": "Bronze"
+  },
+  {
+    "id": "558528",
+    "name": "驚きと感動を提供する那須どうぶつ王国",
+    "rare": "Normal"
+  },
+  {
+    "id": "558529",
+    "name": "熱いミルク飲めません",
+    "rare": "Normal"
+  },
+  {
+    "id": "558530",
+    "name": "MIKU MIKU BEAAAAM!!",
+    "rare": "Bronze"
+  },
+  {
+    "id": "558531",
+    "name": "OveRfl0w",
+    "rare": "Silver"
+  },
+  {
+    "id": "558532",
+    "name": "ワレワレハあいたい星人ダ",
+    "rare": "Bronze"
+  },
+  {
+    "id": "558533",
+    "name": "逆におっけー",
+    "rare": "Normal"
+  },
+  {
+    "id": "558534",
+    "name": "好好好",
+    "rare": "Bronze"
+  },
+  {
+    "id": "558537",
+    "name": "好きな譜面を発表します",
+    "rare": "Normal"
+  },
+  {
+    "id": "558538",
+    "name": "好き好き大好き",
+    "rare": "Normal"
+  },
+  {
+    "id": "558539",
+    "name": "みんなの好きな惣菜も教えてください！！",
+    "rare": "Normal"
+  },
+  {
+    "id": "558540",
+    "name": "( ﾟ∀ﾟ)o彡゜えーりん！えーりん！",
+    "rare": "Bronze"
+  },
+  {
+    "id": "558541",
+    "name": "( ﾟ∀ﾟ)o彡゜りんえー！りんえー！",
+    "rare": "Normal"
+  },
+  {
+    "id": "558542",
+    "name": "全てを壊せ、絶対最強フランドール",
+    "rare": "Gold"
+  },
+  {
+    "id": "558543",
+    "name": "ビートまりおのテーマ",
+    "rare": "Normal"
+  },
+  {
+    "id": "558544",
+    "name": "ここに歌詞ファイルをドロップ",
+    "rare": "Normal"
+  },
+  {
+    "id": "558545",
+    "name": "電気止まっちゃった",
+    "rare": "Normal"
+  },
+  {
+    "id": "558547",
+    "name": "にじさんじのmaimai でらっくす番長",
+    "rare": "Normal"
+  },
+  {
+    "id": "558548",
+    "name": "おもろ！このゲーム",
+    "rare": "Normal"
+  },
+  {
+    "id": "558549",
+    "name": "三枝村",
+    "rare": "Normal"
+  },
+  {
+    "id": "558550",
+    "name": "普通に…ファンなので…",
+    "rare": "Normal"
+  },
+  {
+    "id": "558551",
+    "name": "ねむねむにゃんこなのだ",
+    "rare": "Normal"
+  },
+  {
+    "id": "558552",
+    "name": "maimai復帰するか",
+    "rare": "Normal"
+  },
+  {
+    "id": "558553",
+    "name": "生徒会、使わせていただきます！",
+    "rare": "Normal"
+  },
+  {
+    "id": "558554",
+    "name": "副会長",
+    "rare": "Normal"
+  },
+  {
+    "id": "558555",
+    "name": "広報",
+    "rare": "Normal"
+  },
+  {
+    "id": "558556",
+    "name": "生徒会で、世界征服します！？",
+    "rare": "Normal"
+  },
+  {
+    "id": "558557",
+    "name": "社畜",
+    "rare": "Normal"
+  },
+  {
+    "id": "558558",
+    "name": "ハァ…",
+    "rare": "Normal"
+  },
+  {
+    "id": "558559",
+    "name": "楽しくやってりゃ無問題",
+    "rare": "Normal"
+  },
+  {
+    "id": "558560",
+    "name": "おれは  しらない  なにも  しらない",
+    "rare": "Normal"
+  },
+  {
+    "id": "558561",
+    "name": "この電車は地獄行きになりまぁす",
+    "rare": "Silver"
+  },
+  {
+    "id": "558562",
+    "name": "これじゃ間に合わないかもね",
+    "rare": "Normal"
+  },
+  {
+    "id": "558563",
+    "name": "本日も乱れぬダイヤに感謝",
+    "rare": "Bronze"
+  },
+  {
+    "id": "558564",
+    "name": "お客様同士のトラブル",
+    "rare": "Normal"
+  },
+  {
+    "id": "558565",
+    "name": "地獄絵図",
+    "rare": "Normal"
+  },
+  {
+    "id": "558568",
+    "name": "crazy Crazy 狂razy",
+    "rare": "Normal"
+  },
+  {
+    "id": "558569",
+    "name": "ＭＡＮＩＡなＢＥＡＴ",
+    "rare": "Bronze"
+  },
+  {
+    "id": "558570",
+    "name": "∀∀∀∀",
+    "rare": "Normal"
+  },
+  {
+    "id": "558571",
+    "name": "もう一回　もう一回",
+    "rare": "Normal"
+  },
+  {
+    "id": "558572",
+    "name": "WE LOVE MYUKKE.",
+    "rare": "Normal"
+  },
+  {
+    "id": "558573",
+    "name": "72°06'4\"E 46°24'18\"S",
+    "rare": "Normal"
+  },
+  {
+    "id": "559132",
+    "name": "みるく（ぷりずむ）のパートナー",
+    "rare": "Bronze"
+  },
+  {
+    "id": "559232",
+    "name": "みるく（ぷりずむ）の相棒",
+    "rare": "Silver"
+  },
+  {
+    "id": "559332",
+    "name": "キラめくおしゃまな魔法使い",
+    "rare": "Gold"
+  },
+  {
+    "id": "990001",
+    "name": "NIGGER KING",
+    "rare": "Rainbow"
+  },
+  {
+    "id": "990002",
+    "name": "小饞猫",
+    "rare": "Rainbow"
+  },
+  {
+    "id": "990003",
+    "name": "国潮来袭",
+    "rare": "Gold"
+  },
+  {
+    "id": "550201",
+    "name": "シグルズ すき",
+    "rare": "Silver"
+  },
+  {
+    "id": "550202",
+    "name": "ブリュレ 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "550203",
+    "name": "カラメル 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "550204",
+    "name": "ドラゴンの王 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "550299",
+    "name": "過誤の歴史の信奉者",
+    "rare": "Gold"
+  },
+  {
+    "id": "558111",
+    "name": "概して過誤",
+    "rare": "Gold"
+  },
+  {
+    "id": "558112",
+    "name": "Unfinished Epic",
+    "rare": "Gold"
+  },
+  {
+    "id": "558113",
+    "name": "忙シー日",
+    "rare": "Gold"
+  },
+  {
+    "id": "558114",
+    "name": "FLΛME/FRΦST",
+    "rare": "Gold"
+  },
+  {
+    "id": "558535",
+    "name": "終電ダッシュ",
+    "rare": "Normal"
+  },
+  {
+    "id": "558536",
+    "name": "ユ！",
+    "rare": "Normal"
+  },
+  {
+    "id": "558178",
+    "name": "MYTH Re：LEASE",
+    "rare": "Gold"
+  },
+  {
+    "id": "550301",
+    "name": "W?K?Y? すき",
+    "rare": "Silver"
+  },
+  {
+    "id": "550302",
+    "name": "ロートスカラ 推し",
+    "rare": "Silver"
+  },
+  {
+    "id": "550303",
+    "name": "アシッド ガチ勢",
+    "rare": "Silver"
+  },
+  {
+    "id": "550399",
+    "name": "有限で永遠のリフレインを",
+    "rare": "Gold"
+  },
+  {
+    "id": "558115",
+    "name": "IMBRUED:FLUX",
+    "rare": "Gold"
+  },
+  {
+    "id": "558116",
+    "name": "砂の函",
+    "rare": "Gold"
+  },
+  {
+    "id": "558117",
+    "name": "Amereistr",
+    "rare": "Gold"
+  },
+  {
+    "id": "558118",
+    "name": "World's end BLACKBOX",
+    "rare": "Gold"
+  },
+  {
+    "id": "558119",
+    "name": "Xaleid◆scopiX",
+    "rare": "Gold"
+  },
+  {
+    "id": "558120",
+    "name": "Ref:rain (for 7th Heaven)",
+    "rare": "Gold"
+  },
+  {
+    "id": "558177",
+    "name": "Believe the Rainbow",
+    "rare": "Gold"
+  },
+  {
+    "id": "558179",
+    "name": "AFTER PANDORA",
+    "rare": "Gold"
+  },
+  {
+    "id": "558566",
+    "name": "FiNEM MUNDi",
+    "rare": "Gold"
+  },
+  {
+    "id": "558567",
+    "name": "WIREPULLER",
+    "rare": "Rainbow"
+  },
+  {
+    "id": "559134",
+    "name": "リズのパートナー",
+    "rare": "Bronze"
+  },
+  {
+    "id": "559234",
+    "name": "リズの相棒",
+    "rare": "Silver"
+  },
+  {
+    "id": "559334",
+    "name": "世界の摂理を静観する者",
+    "rare": "Gold"
+  },
+  {
+    "id": "559501",
+    "name": "【差出人不明のデータ1】",
+    "rare": "Normal"
+  },
+  {
+    "id": "559502",
+    "name": "【差出人不明のデータ2】",
+    "rare": "Normal"
+  },
+  {
+    "id": "559503",
+    "name": "【差出人不明のデータ3】",
+    "rare": "Normal"
+  },
+  {
+    "id": "559504",
+    "name": "【差出人不明のデータ4】",
+    "rare": "Normal"
+  },
+  {
+    "id": "559505",
+    "name": "【差出人不明のデータ5】",
+    "rare": "Normal"
+  },
+  {
+    "id": "559506",
+    "name": "【差出人不明のデータ6】",
+    "rare": "Normal"
+  },
+  {
+    "id": "559507",
+    "name": "【差出人不明のデータ7】",
+    "rare": "Normal"
+  },
+  {
+    "id": "559508",
+    "name": "【差出人不明のデータ8】",
+    "rare": "Normal"
+  },
+  {
+    "id": "559509",
+    "name": "【差出人不明のデータ9】",
+    "rare": "Normal"
+  },
+  {
+    "id": "559510",
+    "name": "【差出人不明のデータ10】",
+    "rare": "Normal"
+  },
+  {
+    "id": "559511",
+    "name": "【差出人不明のデータ11】",
+    "rare": "Normal"
+  },
+  {
+    "id": "559512",
+    "name": "【差出人不明のデータ12】",
+    "rare": "Normal"
+  },
+  {
+    "id": "559999",
+    "name": "サイゴノキボウ ヲミツケテ",
     "rare": "Normal"
   }
 ]

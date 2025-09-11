@@ -7,7 +7,7 @@ import { XMLParser } from 'fast-xml-parser';
 const parser = new XMLParser();
 
 for (const a of await fsP.readdir(path.join(process.argv[2]))) {
-	if (!a.startsWith('A')) continue;
+	if (!a.startsWith('A') && !a.startsWith('K')) continue;
 	const base = path.join(process.argv[2], a);
 	if (!fs.existsSync(path.join(base, 'title'))) continue;
 	for (const dir of await fsP.readdir(path.join(base, 'title'))) {
