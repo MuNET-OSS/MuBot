@@ -7,6 +7,7 @@ import { component$ } from '@builder.io/qwik';
 
 const getLogoByVersion = (ver: MaiVersion) => {
 	switch (ver) {
+		case 160: return PRISM_PLUS_LOGO;
 		case 155: return PRISM_PLUS_LOGO;
 		case 150: return PRISM_LOGO;
 		case 145: return BUDDIES_PLUS_LOGO;

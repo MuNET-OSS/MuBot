@@ -113,8 +113,10 @@ export class UserProfile {
 						return 145;
 					else if (version < 55)
 						return 150;
-					else
+					else if (version < 60)
 						return 155;
+					else
+						return 160;
 				} catch (e) {
 					console.error('Failed to get user version', e);
 					return 150;

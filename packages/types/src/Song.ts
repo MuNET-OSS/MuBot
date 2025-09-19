@@ -1,7 +1,7 @@
 import { CategoryEnum, DifficultyEnum, dxdata, Regions, Song as DataSong, TypeEnum } from '@gekichumai/dxdata';
 import Chart from './Chart';
 import _ from 'lodash';
-import { ALL_MUSIC, ALL_MUSIC_140, ALL_MUSIC_145, ALL_MUSIC_150, JACKET_EXIST_IDS } from '@clansty/maibot-data';
+import { ALL_MUSIC, ALL_MUSIC_140, ALL_MUSIC_145, ALL_MUSIC_150, ALL_MUSIC_155, JACKET_EXIST_IDS } from '@clansty/maibot-data';
 import { LEVEL, LEVEL_EN } from './consts';
 import { MaiVersion } from './types';
 import { ASSET_TYPE, getAssetUrl } from '@clansty/maibot-utils/src/getAssetUrl';
@@ -30,8 +30,10 @@ export default class Song implements DataSong {
 		Object.assign(this, data);
 
 		let allMusic: typeof ALL_MUSIC;
-		if (ver === 155) {
+		if (ver === 160) {
 			allMusic = ALL_MUSIC;
+		} else if (ver === 155) {
+			allMusic = ALL_MUSIC_155;
 		} else if (ver === 150) {
 			allMusic = ALL_MUSIC_150;
 		} else if (ver === 145) {
@@ -146,8 +148,10 @@ export default class Song implements DataSong {
 
 	public static fromId(id: number, ver: MaiVersion = 155) {
 		let allMusic: typeof ALL_MUSIC;
-		if (ver === 155) {
+		if (ver === 160) {
 			allMusic = ALL_MUSIC;
+		} else if (ver === 155) {
+			allMusic = ALL_MUSIC_155;
 		} else if (ver === 150) {
 			allMusic = ALL_MUSIC_150;
 		} else if (ver === 145) {

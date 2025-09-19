@@ -267,6 +267,6 @@ export interface BotEnv extends Env {
 	BOT_TYPE: 'qq' | 'telegram' | 'qq-official';
 }
 
-export type MaiVersion = 140 | 145 | 150 | 155
+export type MaiVersion = 140 | 145 | 150 | 155 | 160
 
 

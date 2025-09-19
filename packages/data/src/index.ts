@@ -1,4 +1,5 @@
 import allMusic from './all-music.json';
+import allMusic155 from './all-music-155.json';
 import allMusic150 from './all-music-150.json';
 import allMusic145 from './all-music-145.json';
 import allMusic140 from './all-music-140.json';
@@ -7,6 +8,7 @@ import jacketExistIds from './jacket-exist-ids.json';
 import chuJacketExistIds from './chu-jacket-exist-ids.json';
 
 export const ALL_MUSIC = allMusic as Record<string | number, Partial<typeof allMusic[8]>>;
+export const ALL_MUSIC_155 = allMusic155 as Record<string | number, Partial<typeof allMusic[8]>>;
 export const ALL_MUSIC_150 = allMusic150 as Record<string | number, Partial<typeof allMusic[8]>>;
 export const ALL_MUSIC_145 = allMusic145 as Record<string | number, Partial<typeof allMusic[8]>>;
 export const ALL_MUSIC_140 = allMusic140 as Record<string | number, Partial<typeof allMusic[8]>>;
