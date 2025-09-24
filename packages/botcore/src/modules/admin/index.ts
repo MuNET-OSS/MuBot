@@ -3,6 +3,7 @@ import NoReportError from '../../utils/NoReportError';
 import { BotTypes } from '@clansty/maibot-firm';
 import { BuilderEnv } from '../../botBuilder';
 import UserContext from '../../UserContext';
+import { UserProfilesKVStorage } from '@clansty/maibot-types';
 
 export default <T extends BotTypes>({ bot, env, getContext, musicToFile }: BuilderEnv<T>) => {
 	const client = new AdminClient(env.ADMIN_SECRET, env.ADMIN_BASE);
@@ -20,6 +21,16 @@ export default <T extends BotTypes>({ bot, env, getContext, musicToFile }: Build
 		const username = event.params[0];
 		await client.rankingBan(username);
 		await event.reply().setText('成功').dispatch();
+
+		return true;
+	});
+
+	bot.registerCommand('query_bind', async (event) => {
+		checkAdminUser(event.fromId);
+
+		const username = event.params[0];
+		const res = await env.KV.get<UserProfilesKVStorage>(`profiles:${username}`);
+		await event.reply().setText(res.profiles.map(it => JSON.stringify(it)).join('\n\n')).dispatch();
 
 		return true;
 	});
