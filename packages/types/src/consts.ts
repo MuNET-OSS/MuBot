@@ -2,6 +2,7 @@ import { DifficultyEnum, VersionEnum } from '@gekichumai/dxdata';
 import { GameVariantPlateMusicList } from './types';
 import { ASSET_TYPE, getAssetUrl } from '@clansty/maibot-utils/src/getAssetUrl';
 
+export const DEFAULT_VERSION = 160;
 export const LEVEL = ['绿', '黄', '红', '紫', '白'] as const;
 export const CHU_LEVEL = ['绿', '黄', '红', '紫', '黑'] as const;
 export const LEVEL_COLOR = ['rgb(34, 187, 91)', 'rgb(251, 156, 45)', 'rgb(246, 72, 97)', 'rgb(158, 69, 226)',

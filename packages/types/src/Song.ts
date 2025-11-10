@@ -2,7 +2,7 @@ import { CategoryEnum, DifficultyEnum, dxdata, Regions, Song as DataSong, TypeEn
 import Chart from './Chart';
 import _ from 'lodash';
 import { ALL_MUSIC, ALL_MUSIC_140, ALL_MUSIC_145, ALL_MUSIC_150, ALL_MUSIC_155, JACKET_EXIST_IDS } from '@clansty/maibot-data';
-import { LEVEL, LEVEL_EN } from './consts';
+import { DEFAULT_VERSION, LEVEL, LEVEL_EN } from './consts';
 import { MaiVersion } from './types';
 import { ASSET_TYPE, getAssetUrl } from '@clansty/maibot-utils/src/getAssetUrl';
 
@@ -25,7 +25,7 @@ export default class Song implements DataSong {
 		public readonly dx?: boolean,
 		// 指 DXRating 中没有的歌
 		public readonly unlisted = false,
-		public readonly ver: MaiVersion = 155
+		public readonly ver: MaiVersion = DEFAULT_VERSION
 	) {
 		Object.assign(this, data);
 
@@ -146,7 +146,7 @@ export default class Song implements DataSong {
 		return message;
 	}
 
-	public static fromId(id: number, ver: MaiVersion = 155) {
+	public static fromId(id: number, ver: MaiVersion = DEFAULT_VERSION) {
 		let allMusic: typeof ALL_MUSIC;
 		if (ver === 160) {
 			allMusic = ALL_MUSIC;
@@ -215,7 +215,7 @@ export default class Song implements DataSong {
 		}, dx, true, ver);
 	}
 
-	public static search(kw: string, ver: MaiVersion = 155) {
+	public static search(kw: string, ver: MaiVersion = DEFAULT_VERSION) {
 		const results = [] as Song[];
 		if (Number(kw)) {
 			const song = this.fromId(Number(kw), ver);
@@ -239,7 +239,7 @@ export default class Song implements DataSong {
 		return _.uniqBy(results, (it) => `${it.id}_${it.title}`);
 	}
 
-	public static getByCondition(condition: (song: Song) => boolean, ver: MaiVersion = 155, officialOnly = true): Song[] {
+	public static getByCondition(condition: (song: Song) => boolean, ver: MaiVersion = DEFAULT_VERSION, officialOnly = true): Song[] {
 		let tmp = Song.getAllSongs(ver);
 		if (officialOnly) {
 			tmp = tmp.filter(song => song.id < 2000);
@@ -249,7 +249,7 @@ export default class Song implements DataSong {
 	}
 
 	public static allIds = _.uniq(Object.keys(ALL_MUSIC).map(Number).map(it => it % 1e4));
-	public static getAllSongs = (ver: MaiVersion = 155) => Song.allIds.filter(it => it < 2000).map(id => Song.fromId(id, ver)).filter(it => it);
+	public static getAllSongs = (ver: MaiVersion = DEFAULT_VERSION) => Song.allIds.filter(it => it < 2000).map(id => Song.fromId(id, ver)).filter(it => it);
 
 	public getChart(difficulty: DifficultyEnum | number | typeof LEVEL[number], dx = this.dx) {
 		if (LEVEL.includes(difficulty as any)) {

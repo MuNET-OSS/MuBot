@@ -1,6 +1,6 @@
 import { DifficultyEnum, NoteCounts, Regions, Sheet, TypeEnum, VersionEnum } from '@gekichumai/dxdata';
 import _ from 'lodash';
-import { DX_VERSIONS, LEVEL_EMOJI, LEVEL_EN, LEVELS } from './consts';
+import { DEFAULT_VERSION, DX_VERSIONS, LEVEL_EMOJI, LEVEL_EN, LEVELS } from './consts';
 import { ALL_MUSIC } from '@clansty/maibot-data';
 import { MaiVersion } from './types';
 
@@ -21,7 +21,7 @@ export default class Chart implements Sheet {
 	public constructor(data: Sheet,
 		dataFromAllMusic?: typeof ALL_MUSIC[number],
 		internalId?: number,
-		public readonly ver: MaiVersion = 155
+		public readonly ver: MaiVersion = DEFAULT_VERSION
 	) {
 		const dataCopy = { ...data };
 		delete dataCopy.level;
