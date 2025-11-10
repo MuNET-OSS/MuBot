@@ -1,4 +1,4 @@
-import { BUDDIES_LOGO, BUDDIES_PLUS_LOGO, GameVariantPlateMusicList, MaiVersion, PLATE_MUSIC_LIST_145, PLATE_MUSIC_LIST_CN, PLATE_MUSIC_LIST_JP, Regions, Env, Song, UserPreviewSummary, UserProfileDto, PRISM_LOGO, PLATE_MUSIC_LIST_150, ChuniSong, PLATE_MUSIC_LIST_155, PRISM_PLUS_LOGO, CIRCLE_LOGO } from '@clansty/maibot-types';
+import { BUDDIES_LOGO, BUDDIES_PLUS_LOGO, GameVariantPlateMusicList, MaiVersion, PLATE_MUSIC_LIST_145, PLATE_MUSIC_LIST_CN, PLATE_MUSIC_LIST_JP, Regions, Env, Song, UserPreviewSummary, UserProfileDto, PRISM_LOGO, PLATE_MUSIC_LIST_150, ChuniSong, PLATE_MUSIC_LIST_155, PRISM_PLUS_LOGO, CIRCLE_LOGO, PLATE_MUSIC_LIST_160 } from '@clansty/maibot-types';
 import { UserSource } from './UserSource';
 import AquaDxLegacy from './AquaDxLegacy';
 import SdgbProxied from './SdgbProxied';
@@ -76,6 +76,8 @@ export class UserProfile {
 		switch (this.region) {
 			case 'jp':
 				switch (await this.getVersion()) {
+					case 160:
+						return PLATE_MUSIC_LIST_160;
 					case 155:
 						return PLATE_MUSIC_LIST_155;
 					case 150:
