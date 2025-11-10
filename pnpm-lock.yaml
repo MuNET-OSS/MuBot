@@ -315,8 +315,8 @@ importers:
         specifier: workspace:^
         version: link:../utils
       '@gekichumai/dxdata':
-        specifier: https://gitpkg.now.sh/gekichumai/dxrating/packages/dxdata?66c39b5d9ea3a5d552f596d9fdf8dd51a7233b57
-        version: https://gitpkg.now.sh/gekichumai/dxrating/packages/dxdata?66c39b5d9ea3a5d552f596d9fdf8dd51a7233b57
+        specifier: https://gitpkg.now.sh/gekichumai/dxrating/packages/dxdata?5cfe20d3109caa32a1203a15176a9d0435231694
+        version: https://gitpkg.now.sh/gekichumai/dxrating/packages/dxdata?5cfe20d3109caa32a1203a15176a9d0435231694
 
   packages/utils:
     dependencies:
@@ -1218,8 +1218,8 @@ packages:
     resolution: {integrity: sha512-vBZP4NlzfOlerQTnba4aqZoMhE/a9HY7HRqoOPaETQcSQuWEIyZMHGfVu6w9wGtGK5fED5qRs2DteVCjOH60sA==}
     engines: {node: '>=14'}
 
-  '@gekichumai/dxdata@https://gitpkg.now.sh/gekichumai/dxrating/packages/dxdata?66c39b5d9ea3a5d552f596d9fdf8dd51a7233b57':
-    resolution: {tarball: https://gitpkg.now.sh/gekichumai/dxrating/packages/dxdata?66c39b5d9ea3a5d552f596d9fdf8dd51a7233b57}
+  '@gekichumai/dxdata@https://gitpkg.now.sh/gekichumai/dxrating/packages/dxdata?5cfe20d3109caa32a1203a15176a9d0435231694':
+    resolution: {tarball: https://gitpkg.now.sh/gekichumai/dxrating/packages/dxdata?5cfe20d3109caa32a1203a15176a9d0435231694}
     version: 0.0.0
 
   '@grammyjs/types@3.16.0':
@@ -3134,6 +3134,7 @@ packages:
   puppeteer@23.8.0:
     resolution: {integrity: sha512-MFWDMWoCcOpwNwQIjA9gPKWrEUbj8bLCzkK56w5lZPMUT6wK4FfpgOEPxKffVmXEMYMZzgcjxzqy15b/Q1ibaw==}
     engines: {node: '>=18'}
+    deprecated: < 24.10.2 is no longer supported
     hasBin: true
 
   qq-official-bot@1.0.3:
@@ -3432,9 +3433,6 @@ packages:
     resolution: {integrity: sha512-hjcS1mhfuyi4WW8IWtjP7brDrG2cuDZukyrYrSauoXGNgx0S7zceP07adYkJycEr56BOUTNPzbInooiN3fn1qw==}
     engines: {node: '>=14.17'}
     hasBin: true
-
-  ufo@1.5.4:
-    resolution: {integrity: sha512-UsUk3byDzKd04EyoZ7U4DOlxQaD14JUKQl6/P7wiX4FNvUfm3XL246n9W5AmqwW5RSFJ27NAuM0iLscAOYUiGQ==}
 
   ufo@1.6.1:
     resolution: {integrity: sha512-9a4/uxlTWJ4+a5i0ooc1rU7C7YOw3wT+UGqdeNNHWnOF9qcMBgLRS+4IYUqbczewFx4mLEig6gawh7X6mFlEkA==}
@@ -4260,7 +4258,7 @@ snapshots:
 
   '@fastify/busboy@2.1.1': {}
 
-  '@gekichumai/dxdata@https://gitpkg.now.sh/gekichumai/dxrating/packages/dxdata?66c39b5d9ea3a5d552f596d9fdf8dd51a7233b57': {}
+  '@gekichumai/dxdata@https://gitpkg.now.sh/gekichumai/dxrating/packages/dxdata?5cfe20d3109caa32a1203a15176a9d0435231694': {}
 
   '@grammyjs/types@3.16.0': {}
 
@@ -6345,7 +6343,7 @@ snapshots:
       acorn: 8.14.0
       pathe: 1.1.2
       pkg-types: 1.2.1
-      ufo: 1.5.4
+      ufo: 1.6.1
 
   module-error@1.0.2: {}
 
@@ -6422,7 +6420,7 @@ snapshots:
     dependencies:
       destr: 2.0.3
       node-fetch-native: 1.6.4
-      ufo: 1.5.4
+      ufo: 1.6.1
 
   ohash@1.1.4: {}
 
@@ -6988,8 +6986,6 @@ snapshots:
   typed-query-selector@2.12.0: {}
 
   typescript@5.6.3: {}
-
-  ufo@1.5.4: {}
 
   ufo@1.6.1: {}
 
