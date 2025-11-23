@@ -16,7 +16,7 @@ const course = (id: number) => getAssetUrl(ASSET_TYPE.Base, `UI_DNM_DaniPlate_${
 export default component$(({ user }: { user: Nameplate }) => {
 	const title = titles.find(it => it.id === pad(user.titleId));
 
-	return <div class="w-40em h-6.44em bg-cover flex" style={{ backgroundImage: `url(${plate(user.plateId)})` }}>
+	return <div class="w-40em h-6.44em bg-cover flex c-black" style={{ backgroundImage: `url(${plate(user.plateId)})` }}>
 		<div class="p-.4em shrink-0 m-l-.1em">
 			<img src={icon(user.iconId)} alt="" class="h-full" />
 		</div>

@@ -19,7 +19,7 @@ const getLogoByVersion = (ver: MaiVersion) => {
 export default component$(({ rating, user, ver }: { rating: UserCombinedRating, user: NameplateData, ver: MaiVersion }) =>
 	<div style={{ padding: '0 20px' }}>
 		<div class={`${styles.b50Header} flex items-center p-[20px_0] gap-[10px_40px]`}>
-			<div class="text-1.8em">
+			<div class="text-1.8em of-hidden" style={{ boxShadow: '0 0 8px rgba(0, 0, 0, 0.8)', borderRadius: '8px' }}>
 				<Nameplate user={user} />
 			</div>
 			<div class={`${styles.hideOnSmallScreen} grow`} />
@@ -51,7 +51,7 @@ const RatingTable = component$(({ rating, userMusic, title, ver }: { rating: Rat
 	averageMinMax[0] = Math.round(sum / scores.length);
 
 	return <div>
-		<div class={styles.b50GridHeader} style={{ display: 'flex', alignItems: 'center', textShadow: '1px 1px 2px #fff', fontWeight: 500 }}>
+		<div class={styles.b50GridHeader} style={{ display: 'flex', alignItems: 'center', textShadow: '0 0 8px rgba(0, 0, 0, 0.8), 2px 2px 4px rgba(0, 0, 0, 0.6)', fontWeight: 500 }}>
 			<div style={{ fontSize: '5em', flexGrow: 1 }}>
 				{title}
 				<div class="text-.4em">
