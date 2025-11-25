@@ -34,5 +34,5 @@ export const getAssetUrl = (type: ASSET_TYPE, id: number | string) => {
 	if (type === ASSET_TYPE.JacketPng) ext = 'png';
 	if (type === ASSET_TYPE.ChuniJacketPng) ext = 'png';
 
-	return `https://maimai-assets.pages.dev/${type}/${id}.${ext}`;
+	return `https://web-assets.c5y.moe/mai-assets/${type}/${id}.${ext}`;
 };
