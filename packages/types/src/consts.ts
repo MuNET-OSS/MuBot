@@ -21,7 +21,7 @@ export const STD_VERSIONS = ['maimai', 'maimai PLUS', 'GreeN', 'GreeN PLUS', 'OR
 	'ORANGE PLUS', 'PiNK', 'PiNK PLUS', 'MURASAKi', 'MURASAKi PLUS',
 	'MiLK', 'MiLK PLUS', 'FiNALE'] as const;
 export const PLATE_VER = ['真', '超', '檄', '橙', '晓', '桃', '樱', '紫', '堇', '白', '雪', '辉', '舞', '熊', '华', '爽',
-	'煌', '宙', '星', '祭', '祝', '双', '宴', '镜', '彩', '全曲'] as const;
+	'煌', '宙', '星', '祭', '祝', '双', '宴', '镜', '彩'] as const;
 export const PLATE_TYPE = ['极', '将', '神', '舞舞', 'clear', 'fc', 'ap'] as const;
 export const BA_VE = '霸者';
 export const PLATE_VER_LIST = {
@@ -572,7 +572,6 @@ export const PLATE_MUSIC_LIST_CN: GameVariantPlateMusicList = {
 		11566, 11568, 11571, 11572, 11573, 11574, 11575, 11576
 	],
 	'双': [],
-	'全曲': [],
 	'宴': [],
 	'镜': [],
 	'彩': [],
@@ -839,7 +838,6 @@ export const PLATE_MUSIC_LIST_145: GameVariantPlateMusicList = {
 		11655, 11656, 11657, 11658, 11659, 11660, 11661,
 		11662, 11663, 11664, 11668
 	],
-	'全曲': [],
 	'霸者': [],
 	'宴': [],
 	'镜': [],
@@ -1117,7 +1115,6 @@ export const PLATE_MUSIC_LIST_150: GameVariantPlateMusicList = {
 		11724, 11725, 11726, 11727, 11728, 11729, 11730,
 		11731, 11733, 11734, 11735
 	],
-	'全曲': [],
 	'霸者': [],
 	'镜': [
 		10375, 10422, 10493, 10699, 11736, 11737, 11738,
@@ -1440,7 +1437,6 @@ export const PLATE_MUSIC_LIST_155: GameVariantPlateMusicList = {
 		11797, 11798, 11799, 11800, 11802, 11803, 11804,
 		11805
 	],
-	'全曲': [],
 	'霸者': [],
 	'彩': [
 		1736, 1819, 10030, 10122, 10187, 10303, 10367,
@@ -1763,7 +1759,6 @@ export const PLATE_MUSIC_LIST_160: GameVariantPlateMusicList = {
 		11869, 11870, 11871, 11872, 11873, 11874, 11875,
 		11876, 11877, 11878
 	],
-	'全曲': [],
 	'霸者': []
 }
 PLATE_MUSIC_LIST_160['霸者'] = PLATE_MUSIC_LIST_160['舞'];

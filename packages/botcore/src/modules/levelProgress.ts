@@ -10,7 +10,7 @@ export default <T extends BotTypes>({ bot, env, getContext, musicToFile }: Build
 		const userMusic = await profile.getUserMusic(requiredSongList);
 
 		return await ctx.genCacheSendImage([level, userMusic], await ctx.getWebUrl('levelProgress', encodeURIComponent(level)),
-			1500, `LV ${level} 完成表.png`, isPrivate ? level : undefined, isFromStart, [
+			1600, `LV ${level} 完成表.png`, isPrivate ? level : undefined, isFromStart, [
 				[new MessageButtonUrl('查看详情', `tg://resolve?domain=AquaDXBot&appname=webapp&startapp=${encodeURIComponent(btoa(`/levelProgress/${fromId}/${ctx.currentProfileId}/${encodeURIComponent(level)}`))}`)]
 			]);
 	};

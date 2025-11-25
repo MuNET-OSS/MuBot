@@ -11,8 +11,11 @@ export default <T extends BotTypes>({ bot, env, getContext, musicToFile }: Build
 		const requiredSongs = (await profile.plateSongs())[ver];
 		const userMusic = await profile.getUserMusic(requiredSongs);
 
+		let width = 1500;
+		if (ver === '舞' || ver === '霸者') width = 2000;
+
 		return await ctx.genCacheSendImage([ver, type, userMusic], await ctx.getWebUrl('plateProgress', encodeURIComponent(ver + type)),
-			1500, `${ver}${type}完成表.png`, isPrivate ? `${ver}${type}` : undefined, isFromStart, [
+			width, `${ver}${type}完成表.png`, isPrivate ? `${ver}${type}` : undefined, isFromStart, [
 				[new MessageButtonUrl('查看详情', `tg://resolve?domain=AquaDXBot&appname=webapp&startapp=${encodeURIComponent(btoa(`/plateProgress/${fromId}/${ctx.currentProfileId}/${encodeURIComponent(ver + type)}`))}`)]
 			]);
 	};
