@@ -74,7 +74,7 @@ export default class UserContext<T extends BotTypes> {
 		const currentProfile = await this.getCurrentProfile(false);
 		const currentProfileId = this.currentProfileId;
 
-		let url = `https://maibot-web.pages.dev/${type}/`;
+		let url = `http://web:3000/${type}/`;
 		if (currentProfile.dto.type === 'AquaDX-v2') {
 			url += `aquadx/${encodeURIComponent(currentProfile.dto.username)}`;
 		} else if (currentProfile.dto.type === 'Minato') {

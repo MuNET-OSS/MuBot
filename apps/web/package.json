@@ -5,17 +5,22 @@
   "type": "module",
   "scripts": {
     "build": "qwik build",
-    "build.server": "vite build -c adapters/cloudflare-pages/vite.config.ts",
     "build.client": "vite build",
-    "deploy": "pnpm run build && wrangler pages deploy ./dist",
+    "build.server": "vite build -c adapters/fastify/vite.config.ts",
+    "deploy": "nu deploy.nu",
     "dev": "vite --mode ssr",
-    "tail": "wrangler pages deployment tail --project-name maibot-web",
-    "serve": "wrangler pages dev ./dist --compatibility-flags=nodejs_als"
+    "serve": "node server/entry.fastify",
+    "tail": "wrangler pages deployment tail --project-name maibot-web"
   },
   "dependencies": {
     "@clansty/maibot-clients": "workspace:^",
     "@clansty/maibot-types": "workspace:^",
-    "@clansty/maibot-utils": "workspace:^"
+    "@clansty/maibot-utils": "workspace:^",
+    "@fastify/compress": "^6.2.1",
+    "@fastify/static": "^6.10.1",
+    "dotenv": "^16.3.2",
+    "fastify": "^4.17.0",
+    "fastify-plugin": "^4.5.0"
   },
   "devDependencies": {
     "@builder.io/qwik": "^1.7.3",
