@@ -36,7 +36,7 @@ export default <T extends BotTypes>({ bot, env, getContext, musicToFile }: Build
 			for (const userScore of userScores) {
 				const chart = song.getChart(userScore.level, userScore.musicId > 1e4);
 				message.push(`${userScore.musicId > 1e4 ? 'DX' : 'STD'} ${LEVEL_EMOJI[userScore.level]} ${chart.internalLevelValue.toFixed(1)} ` +
-					`${(userScore.achievement / 1e4).toFixed(4)}% = ${computeRa(chart.internalLevelValue, userScore.achievement)} ${FC[userScore.comboStatus]}`);
+					`${(userScore.achievement / 1e4).toFixed(4)}% = ${computeRa(chart.internalLevelValue, userScore.achievement, userScore.comboStatus)} ${FC[userScore.comboStatus]}`);
 			}
 
 			if (musicToFile[song.id]) {
@@ -86,7 +86,7 @@ export default <T extends BotTypes>({ bot, env, getContext, musicToFile }: Build
 			for (const userScore of userScores) {
 				const chart = song.getChart(userScore.level, userScore.musicId > 1e4);
 				message.push(`${userScore.musicId > 1e4 ? 'DX' : 'STD'} ${LEVEL_EMOJI[userScore.level]} ${chart.internalLevelValue.toFixed(1)} ` +
-					`${(userScore.achievement / 1e4).toFixed(4)}% = ${computeRa(chart.internalLevelValue, userScore.achievement)} ${FC[userScore.comboStatus]}`);
+					`${(userScore.achievement / 1e4).toFixed(4)}% = ${computeRa(chart.internalLevelValue, userScore.achievement, userScore.comboStatus)} ${FC[userScore.comboStatus]}`);
 			}
 
 			const reply = event.reply()

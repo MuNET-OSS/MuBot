@@ -40,7 +40,7 @@ const RatingTable = component$(({ rating, userMusic, title, ver }: { rating: Rat
 			entries.push({ rating: ratingListEntry });
 			continue;
 		}
-		const score = computeRa(chart.internalLevelValue, ratingListEntry.achievement);
+		const score = computeRa(chart.internalLevelValue, ratingListEntry.achievement, userMusic.find(music => music.musicId === ratingListEntry.musicId && music.level === ratingListEntry.level)!.comboStatus);
 		scores.push(score);
 		entries.push({ rating: ratingListEntry, score, song, chart });
 	}
@@ -60,13 +60,32 @@ const RatingTable = component$(({ rating, userMusic, title, ver }: { rating: Rat
 				</div>
 			</div>
 			<div style={{ fontSize: '2em', margin: '0 15px' }}>
-				<div>平均: {ratingAnalyse(averageMinMax[0])}</div>
-				<div>最低: {ratingAnalyse(averageMinMax[1])}</div>
-				<div>最高: {ratingAnalyse(averageMinMax[2])}</div>
+				<div>平均: <RatingAnalyse rating={averageMinMax[0]} /></div>
+				<div>最低: <RatingAnalyse rating={averageMinMax[1]} /></div>
+				<div>最高: <RatingAnalyse rating={averageMinMax[2]} /></div>
 			</div>
 		</div>
 		<div class={styles.b50Grid}>
 			{entries.map(it => <B50Song entry={it.rating} song={it.song!} score={userMusic.find(music => music.musicId === it.rating.musicId && music.level === it.rating.level)!} key={it.rating.musicId} />)}
 		</div>
 	</div>;
+});
+
+const RatingAnalyse = component$(({ rating }: { rating: number }) => {
+	const ap = (rating - 1) / 22.4 / 1.005;
+	const sssp = rating / 22.4 / 1.005;
+	const sss = rating / 21.6;
+	const ss = rating / 20.8 / 0.99;
+	return <>
+		<span class="font-600">{rating}</span>
+		{' ≈ '}
+		<span>{ap.toFixed(1)}</span>
+		{' AP / '}
+		<span>{sssp.toFixed(1)}</span>
+		{' SSS+ / '}
+		<span>{sss.toFixed(1)}</span>
+		{' SSS / '}
+		<span>{ss.toFixed(1)}</span>
+		{' SS'}
+	</>;
 });

@@ -1,4 +1,4 @@
-export const computeRa = (ds: number, achievement: number): number => {
+export const computeRa = (ds: number, achievement: number, combo: number): number => {
 	let baseRa: number = 22.4;
 	if (achievement < 50e4) {
 		baseRa = 0.0;
@@ -27,8 +27,12 @@ export const computeRa = (ds: number, achievement: number): number => {
 	} else if (achievement < 1005e3) {
 		baseRa = 21.6;
 	}
-	return Math.floor(ds * (Math.min(100.5, achievement / 1e4) / 100) * baseRa);
-};
+	let res = Math.floor(ds * (Math.min(100.5, achievement / 1e4) / 100) * baseRa);
+	if (combo >= 3) {
+	  res += 1;
+	}
+	return res;
+  };
 
 function _chusanRating(lv: number, score: number) {
 	lv = lv * 100;

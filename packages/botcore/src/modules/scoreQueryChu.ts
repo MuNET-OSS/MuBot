@@ -1,6 +1,6 @@
 import _ from 'lodash';
 import { CHU_LEVEL_EMOJI, FC, LEVEL_EMOJI, Song } from '@clansty/maibot-types/src';
-import { chusanRating, computeRa } from '@clansty/maibot-utils';
+import { chusanRating } from '@clansty/maibot-utils';
 import { BotTypes, MessageButtonSwitchInline } from '@clansty/maibot-firm';
 import { BuilderEnv } from '../botBuilder';
 import { ChuniSong } from '@clansty/maibot-types';

@@ -22,7 +22,17 @@ errorOnDuplicatesPkgDeps(devDependencies, dependencies);
  */
 export default defineConfig(({ command, mode }): UserConfig => {
 	return {
-		plugins: [UnoCSS(), qwikCity(), qwikVite(), tsconfigPaths()],
+		plugins: [
+			UnoCSS(),
+			qwikCity(),
+			qwikVite({
+				devTools: {
+					imageDevTools: false,
+					clickToSource: false,
+				}
+			}),
+			tsconfigPaths()
+		],
 		// This tells Vite which dependencies to pre-build in dev mode.
 		optimizeDeps: {
 			exclude: []

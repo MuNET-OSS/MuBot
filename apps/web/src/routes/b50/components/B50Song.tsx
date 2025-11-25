@@ -12,9 +12,7 @@ const BORDER_SIZE = 3;
 const SIZE = 90;
 
 export default ({ entry, score, song }: { entry: RatingListEntry, score: UserMusic, song: Song }) => {
-	const href = song && `https://t.me/aquadxbot?start=song-${song.id}`;
-
-	return href ? <a href={href}><Component entry={entry} score={score} song={song} /></a> : <Component entry={entry} score={score} song={song} />;
+	return <Component entry={entry} score={score} song={song} />;
 };
 
 const Component = ({ entry, score, song }: { entry: RatingListEntry, score: UserMusic, song?: Song }) => {
@@ -47,7 +45,7 @@ const Component = ({ entry, score, song }: { entry: RatingListEntry, score: User
 					{chart && chart.internalLevelValue && <div>
 						{chart.internalLevelValue.toFixed(1)}
 						<span style={{ margin: '0 .3em' }}>→</span>
-						<span style={{ fontWeight: 700 }}>{computeRa(chart.internalLevelValue, entry.achievement)}</span>
+						<span style={{ fontWeight: 700 }}>{computeRa(chart.internalLevelValue, entry.achievement, score.comboStatus)}</span>
 					</div>}
 				</div>
 				<div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
